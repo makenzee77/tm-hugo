@@ -1,0 +1,10 @@
+{{/* Brief product specifications for cards */}}
+{{ if or .Params.processor .Params.power .Params.protection }}
+<div class="mb-3">
+    <small class="text-muted">
+        {{ if .Params.processor }}{{ .Params.processor }}<br>{{ end }}
+        {{ if .Params.power }}Питание: {{ .Params.power }}<br>{{ end }}
+        {{ if .Params.protection }}Защита: {{ .Params.protection }}{{ end }}
+    </small>
+</div>
+{{ end }}

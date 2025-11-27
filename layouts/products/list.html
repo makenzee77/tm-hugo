@@ -1,0 +1,98 @@
+{{ define "main" }}
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="section-title">{{ .Title }}</h1>
+        <p class="section-subtitle">{{ .Description }}</p>
+    </div>
+
+    <!-- Фильтры по категориям -->
+    {{ if .Site.Taxonomies.categories }}
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="d-flex flex-wrap gap-2 justify-content-center">
+                <button class="btn btn-outline-primary filter-btn active" data-category="all">
+                    Все продукты
+                </button>
+                {{ range .Site.Taxonomies.categories }}
+                <button class="btn btn-outline-primary filter-btn" data-category="{{ .Page.Title | urlize }}">
+                    {{ partial "category-title.html" (.Page.Title | lower) }} ({{ len .Pages }})
+                </button>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Сетка продуктов -->
+    <div class="row g-4" id="products-grid">
+        {{ range .Pages }}
+        <div class="col-lg-4 col-md-6 product-item" data-category="{{ range .Params.categories }}{{ . | urlize }}{{ end }}">
+            {{ partial "product-card.html" . }}
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- Сообщение если продукты не найдены -->
+    <div id="no-products" class="text-center py-5" style="display: none;">
+        <i class="fas fa-search fa-3x text-muted mb-3"></i>
+        <h4 class="text-muted">Продукты не найдены</h4>
+        <p class="text-muted">Попробуйте выбрать другую категорию</p>
+    </div>
+
+    <!-- Информация о компании -->
+    <div class="row mt-5 pt-5 border-top">
+        <div class="col-lg-8 mx-auto text-center">
+            <h3 class="mb-4">Техническая поддержка</h3>
+            <p class="lead mb-4">
+                Для получения подробной информации о любом продукте, технических консультаций 
+                или оформления заказа обращайтесь к нашим специалистам.
+            </p>
+            <div class="d-flex gap-3 justify-content-center">
+                <a href="{{ "contacts/" | relURL }}" class="btn btn-primary">
+                    <i class="fas fa-phone me-2"></i>Связаться с нами
+                </a>
+                <a href="mailto:{{ .Site.Params.company.email }}" class="btn btn-outline-primary">
+                    <i class="fas fa-envelope me-2"></i>{{ .Site.Params.company.email }}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const productItems = document.querySelectorAll('.product-item');
+    const noProductsMsg = document.getElementById('no-products');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const category = this.dataset.category;
+            
+            // Обновить активную кнопку
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Фильтровать продукты
+            let visibleCount = 0;
+            productItems.forEach(item => {
+                const itemCategory = item.dataset.category;
+                if (category === 'all' || itemCategory === category) {
+                    item.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            // Показать/скрыть сообщение "не найдено"
+            if (visibleCount === 0) {
+                noProductsMsg.style.display = 'block';
+            } else {
+                noProductsMsg.style.display = 'none';
+            }
+        });
+    });
+});
+</script>
+{{ end }}

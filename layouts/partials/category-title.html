@@ -1,0 +1,10 @@
+{{/* Category title mapping utility */}}
+{{ $categoryTitles := dict
+    "controllers" "Контроллеры"
+    "processing" "Обработка данных"
+    "sensors" "Датчики"
+    "displays" "Дисплеи"
+    "switching" "Коммутация"
+    "actuators" "Исполнительные устройства"
+}}
+{{ index $categoryTitles . | default (. | title) }}

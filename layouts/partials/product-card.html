@@ -1,0 +1,38 @@
+{{/* Reusable product card partial */}}
+<div class="card product-card h-100">
+    <div class="product-image-container">
+        {{ if .Params.images }}
+        {{ $image := index .Params.images 0 }}
+        <img src="{{ printf "img/products/%s" $image | relURL }}" alt="{{ .Title }}" class="product-image">
+        {{ else }}
+        <i class="fas fa-microchip"></i>
+        {{ end }}
+    </div>
+    <div class="card-body">
+        <h5 class="product-title mb-2">
+            <a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Params.fullName | default .Title }}</a>
+        </h5>
+        
+        {{ if .Params.partNumber }}
+        <div class="mb-2">
+            <small class="text-muted">Артикул: {{ .Params.partNumber }}</small>
+        </div>
+        {{ end }}
+
+        {{ if .Params.applications }}
+        <div class="applications-list 1mb-3">
+            {{ range .Params.applications }}
+            <span class="application-badge">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <!-- {{ partial "product-specs-brief.html" . }} -->
+        
+        {{ if .Params.description }}
+        <div class="product-description ">
+            <p class="text-muted small mb-0">{{ .Params.description }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>

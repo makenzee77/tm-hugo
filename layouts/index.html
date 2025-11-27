@@ -1,0 +1,185 @@
+{{ define "main" }}
+<!-- Hero -->
+<section class="position-relative min-vh-100 d-flex justify-content-center align-items-center text-white text-center" style="background: url('https://avatars.mds.yandex.net/i?id=44af4b123c9063ec87e0f8af132cb3a1_l-5299794-images-thumbs&n=13') center/cover no-repeat;">
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+  <div class="container py-5 position-relative">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1 class="mb-3">{{ .Site.Params.company.name }}</h1>
+        <p class="hero-subtitle">{{ .Site.Params.company.motto }}</p>
+        <p class="mb-4">{{ .Site.Params.description }}</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a class="btn btn-danger btn-lg" href="{{ "products/" | relURL }}">Каталог</a>
+          <a class="btn btn-light btn-lg" href="{{ "solutions/" | relURL }}">Решения под ключ</a>
+        </div>
+        <!-- Бейджи доверия -->
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <span class="badge bg-light text-dark">Промышленное качество IP54–IP67</span>
+          <span class="badge bg-light text-dark">Работа при -40°C…+70°C</span>
+          <span class="badge bg-light text-dark">GPS/ГЛОНАСС L1/L2, RTK</span>
+          <span class="badge bg-light text-dark">CAN, USB, Ethernet, WiFi, Bluetooth</span>
+        </div>
+        <!-- Белая V-галка (стрелка вниз) -->
+        <div class="w-100 d-flex justify-content-center mt-4">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 9l6 6 6-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-3">Флагманские продукты</h2>
+    <p class="mb-4">Собственная разработка и производство в Екатеринбурге</p>
+
+    <!-- Верхний ряд: две карточки -->
+    <div class="row g-4 mb-4">
+      <!-- Карточка УТУД -->
+      <div class="col-12 col-md-6">
+        <div class="card h-100 rounded-6">
+          <div class="bg-light">
+            <img src="/img/products/utud_ptz_2.png"
+                 class="img-fluid w-100"
+                 alt="УТУД">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Дисплей</h5>
+            <p class="small mb-3">
+              Универсальное устройство обработки данных — высокопроизводительное решение для транспорта,
+              сельхозтехники и спецтехники.
+            </p>
+            <table class="table table-sm table-borderless mb-3">
+              <tbody>
+                <tr>
+                  <td class="fw-bold">Процессор</td>
+                  <td>iMX8M Plus ARM Cortex-A53, 1.6GHz</td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Память</td>
+                  <td>4GB LPDDR4, 16GB eMMC</td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Видеовыходы</td>
+                  <td>1920×1080, 1280×720</td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Интерфейсы</td>
+                  <td>USB 3.0, Ethernet, CAN, WiFi, BLE</td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Защита</td>
+                  <td>IP65</td>
+                </tr>
+              </tbody>
+            </table>
+            <h6 class="fw-bold mb-2">Основые возможности:</h6>
+            <ul class="small mb-3">
+              <li>Высокопроизводительный ARM процессор</li>
+              <li>Точная навигация с RTK</li>
+              <li>Множественные интерфейсы</li>
+            </ul>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Карточка БКУ -->
+      <div class="col-12 col-md-6">
+        <div class="card h-100 rounded-6">
+          <div class="bg-light">
+            <img src="/img/products/bku_ptz_1.jpg"
+                 class="img-fluid w-100"
+                 alt="БКУ">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Блок коммутации</h5>
+            <p class="small mb-3">
+              Блок коммутации универсальный — надежное решение для промышленной автоматики.
+            </p>
+            <table class="table table-sm table-borderless mb-3">
+              <tbody>
+                <tr>
+                  <td class="fw-bold">Каналы коммутации</td>
+                  <td>3 канала</td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Интерфейсы</td>
+                  <td>CAN, RS-485</td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Питание</td>
+                  <td>7-32V</td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Защита</td>
+                  <td>IP54</td>
+                </tr>
+              </tbody>
+            </table>
+            <h6 class="fw-bold mb-2">Основные возможности:</h6>
+            <ul class="small mb-3">
+              <li>3 канала коммутации</li>
+              <li>Поддержка CAN и RS-485</li>
+              <li>Степень защиты IP54</li>
+            </ul>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Нижняя широкая карточка -->
+    <div class="row g-4">
+      <div class="col-12">
+        <div class="card h-100 rounded-6">
+          <div class="bg-light d-flex justify-content-center">
+            <img src="/img/products/sensor_inertial_1.jpg"
+                 class="img-fluid"
+                 style="max-width: 50%;"
+                 alt="Инерциальный датчик">
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <h5 class="card-title fw-bold">Инерциальный датчик</h5>
+                <p class="small mb-3">
+                  Инерциальный измерительный модуль — высокоточное решение для измерения углов ориентации.
+                </p>
+                <h6 class="fw-bold mb-2">Характеристики:</h6>
+                <table class="table table-sm table-borderless mb-3">
+                  <tbody>
+                    <tr>
+                      <td class="fw-bold">Курс</td>
+                      <td>0...360°</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">Крен</td>
+                      <td>-180...180°</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">Точность</td>
+                      <td>±0.05°</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">Защита</td>
+                      <td>IP67</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">Интерфейс</td>
+                      <td>CAN</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

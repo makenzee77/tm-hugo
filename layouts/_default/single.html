@@ -1,0 +1,85 @@
+{{ define "main" }}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ "/" | relURL }}">Главная</a></li>
+                    {{ if .Section }}
+                    <li class="breadcrumb-item"><a href="{{ .Section | relURL }}">{{ .Section | title }}</a></li>
+                    {{ end }}
+                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                </ol>
+            </nav>
+
+            <!-- Page Header -->
+            <div class="page-header mb-5">
+                <h1 class="display-4 mb-3">{{ .Title }}</h1>
+                {{ if .Description }}
+                <p class="lead text-muted">{{ .Description }}</p>
+                {{ end }}
+                {{ if .Date }}
+                <div class="text-muted mb-3">
+                    <i class="fas fa-calendar-alt me-2"></i>
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+                </div>
+                {{ end }}
+            </div>
+
+            <!-- Page Content -->
+            <div class="page-content">
+                {{ .Content }}
+            </div>
+
+            <!-- Tags -->
+            {{ if .Params.tags }}
+            <div class="tags-section mt-5 pt-4 border-top">
+                <h6 class="mb-3">Теги:</h6>
+                <div class="tags-list">
+                    {{ range .Params.tags }}
+                    <span class="badge bg-secondary me-2 mb-2">{{ . }}</span>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+            <!-- Navigation -->
+            <div class="page-navigation mt-5 pt-4 border-top">
+                <div class="row">
+                    {{ with .PrevInSection }}
+                    <div class="col-md-6 mb-3">
+                        <div class="nav-card">
+                            <div class="nav-direction">
+                                <i class="fas fa-arrow-left me-2"></i>Предыдущая страница
+                            </div>
+                            <a href="{{ .RelPermalink }}" class="nav-title">{{ .Title }}</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{ with .NextInSection }}
+                    <div class="col-md-6 mb-3">
+                        <div class="nav-card text-end">
+                            <div class="nav-direction">
+                                Следующая страница<i class="fas fa-arrow-right ms-2"></i>
+                            </div>
+                            <a href="{{ .RelPermalink }}" class="nav-title">{{ .Title }}</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+
+            <!-- Back to Section -->
+            {{ if .Section }}
+            <div class="back-to-section mt-4">
+                <a href="{{ .Section | relURL }}" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left me-2"></i>Вернуться к разделу "{{ .Section | title }}"
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,59 @@
+baseURL: 'https://precision-machines.pro'
+languageCode: 'ru-RU'
+title: 'АО «Точные машины»'
+defaultContentLanguage: 'ru'
+
+params:
+  description: 'Разработка и производство высокотехнологичного промышленного электронного оборудования для сельского хозяйства, строительства и силовых установок.'
+  company:
+    name: 'АО «Точные машины»'
+    motto: 'Точность. Стабильность. Интеллект.'
+    founded: 2023
+    location: 'г. Екатеринбург'
+    legalAddress: '620078, Свердловская область, г. Екатеринбург, ул. Малышева, стр. 122, литер К'
+    inn: '6670518046'
+    kpp: '667001001'
+    ogrn: '1236600048937'
+    phone: '+7(932)617-76-22'
+    email: 'info@precisionmachines.pro'
+
+menu:
+  main:
+    - name: 'Главная'
+      url: '/'
+      weight: 10
+    - name: 'Каталог'
+      url: '/products/'
+      weight: 20
+    - name: 'Решения'
+      url: '/solutions/'
+      weight: 30
+    - name: 'О компании'
+      url: '/about/'
+      weight: 40
+    - name: 'Контакты'
+      url: '/contacts/'
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    lineNos: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  application: applications
+
+outputs:
+  home: ['HTML', 'RSS', 'JSON']
+  page: ['HTML']
+  section: ['HTML', 'RSS']
+
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart

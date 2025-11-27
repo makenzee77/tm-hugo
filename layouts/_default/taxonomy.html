@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="section-title">
+            {{ partial "category-title.html" .Title }}
+        </h1>
+        <p class="section-subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}продукт{{ else if lt (len .Pages) 5 }}продукта{{ else }}продуктов{{ end }} в этой категории</p>
+    </div>
+
+    <!-- Навигация -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ "/" | relURL }}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="{{ "/categories/" | relURL }}">Категории</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+                {{ partial "category-title.html" .Title }}
+            </li>
+        </ol>
+    </nav>
+
+    <!-- Сетка продуктов -->
+    <div class="row g-4">
+        {{ range .Pages }}
+        <div class="col-lg-4 col-md-6">
+            {{ partial "product-card.html" . }}
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- Навигация по другим категориям -->
+    <div class="row mt-5 pt-5 border-top">
+        <div class="col-12">
+            <h3 class="text-center mb-4">Другие категории</h3>
+            <div class="d-flex flex-wrap gap-2 justify-content-center">
+                {{ range .Site.Taxonomies.categories }}
+                {{ if ne .Page.Title $.Title }}
+                <a href="{{ .Page.RelPermalink }}" class="btn btn-outline-primary">
+                    {{ partial "category-title.html" .Page.Title }}
+                    ({{ len .Pages }})
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

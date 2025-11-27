@@ -1,0 +1,10 @@
+{{/* Category icon mapping utility */}}
+{{ $categoryIcons := dict
+    "controllers" "fas fa-sliders-h"
+    "processing" "fas fa-brain"
+    "sensors" "fas fa-satellite-dish"
+    "displays" "fas fa-tv"
+    "switching" "fas fa-project-diagram"
+    "actuators" "fas fa-tools"
+}}
+{{ index $categoryIcons . | default "fas fa-microchip" }}

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="section-title">Категории продукции</h1>
+        <p class="section-subtitle">Выберите категорию для просмотра соответствующих продуктов</p>
+    </div>
+
+    <div class="row g-4">
+        {{ range .Data.Terms.Alphabetical }}
+        <div class="col-lg-4 col-md-6">
+            <div class="card category-card h-100">
+                <div class="card-body text-center">
+                    <div class="category-icon mb-3">
+                        <i class="fas fa-cube fa-3x text-primary"></i>
+                    </div>
+                    <h5 class="card-title">{{ .Page.Title | title }}</h5>
+                    <p class="card-text text-muted">{{ len .Pages }} продуктов</p>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a href="{{ .Page.RelPermalink }}" class="btn btn-primary w-100">
+                        <i class="fas fa-arrow-right me-2"></i>Просмотреть продукты
+                    </a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

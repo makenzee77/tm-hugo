@@ -1,0 +1,58 @@
+<svg width="960" height="480" viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wireframe M mark">
+  <defs>
+    <!-- Brand colors -->
+    <linearGradient id="steelFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B2A29" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#2B2A29" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background grid (subtle, optional) -->
+  <g opacity="0.08">
+    <rect x="0" y="0" width="960" height="480" fill="url(#steelFade)"/>
+    <g stroke="#2B2A29" stroke-width="1">
+      <!-- verticals -->
+      <path d="M80 0 V480 M160 0 V480 M240 0 V480 M320 0 V480 M400 0 V480 M480 0 V480 M560 0 V480 M640 0 V480 M720 0 V480 M800 0 V480 M880 0 V480"/>
+      <!-- horizontals -->
+      <path d="M0 60 H960 M0 120 H960 M0 180 H960 M0 240 H960 M0 300 H960 M0 360 H960 M0 420 H960"/>
+    </g>
+  </g>
+
+  <!-- Wireframe M -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main outline -->
+    <path d="M160 380 L160 100 L300 100 L480 300 L660 100 L800 100 L800 380"
+          stroke="#2B2A29" stroke-width="10"/>
+    <!-- Inner bevel lines -->
+    <path d="M200 340 V140 H288 L480 328 L672 140 H760 V340"
+          stroke="#2B2A29" stroke-width="4" opacity="0.8"/>
+    <!-- Central locator motif (from your logo) -->
+    <circle cx="480" cy="230" r="72" stroke="#C40606" stroke-width="8"/>
+    <circle cx="480" cy="230" r="18" fill="#FFFFFF" stroke="#C40606" stroke-width="6"/>
+    <path d="M480 152
+             C520 172 544 204 544 238
+             C544 292 506 334 480 356
+             C454 334 416 292 416 238
+             C416 204 440 172 480 152 Z"
+          fill="none" stroke="#C40606" stroke-width="8"/>
+
+    <!-- Structural diagonals -->
+    <path d="M160 100 L480 300 M800 100 L480 300" stroke="#C40606" stroke-width="3" opacity="0.9"/>
+    <path d="M300 100 L200 200 M660 100 L760 200" stroke="#2B2A29" stroke-width="3" opacity="0.6"/>
+
+    <!-- Accent construction ticks -->
+    <g stroke="#C40606" stroke-width="2" opacity="0.9">
+      <path d="M160 100 l-20 0 M160 140 l-20 0 M800 100 l20 0 M800 140 l20 0"/>
+      <path d="M300 100 l0 -20 M660 100 l0 -20"/>
+    </g>
+
+    <!-- Subtle highlight strokes -->
+    <path d="M162 378 L162 102 L298 102 L480 298 L662 102 L798 102 L798 378"
+          stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2" filter="url(#soft)"/>
+  </g>
+
+
+</svg>

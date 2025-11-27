@@ -1,0 +1,164 @@
+{{ define "main" }}
+<div class="container py-5">
+    <!-- Кнопка возврата -->
+    <div class="mb-4">
+        <a href="{{ "products/" | relURL }}" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Вернуться к каталогу
+        </a>
+    </div>
+
+    <!-- Заголовок продукта -->
+    <div class="product-hero mb-5">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1 class="mb-3">{{ .Params.fullName | default .Title }}</h1>
+                <div class="mb-3">
+                    <strong>Модель:</strong> {{ .Title }}
+                    {{ if .Params.partNumber }}
+                    | <strong>Артикул:</strong> {{ .Params.partNumber }}
+                    {{ end }}
+                </div>
+                
+                {{ if .Params.categories }}
+                <div class="mb-4">
+                    {{ range .Params.categories }}
+                    <span class="badge bg-primary me-2">
+                        <i class="fas fa-microchip me-1"></i>{{ . | title }}
+                    </span>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                {{ if .Params.applications }}
+                <div class="applications-list mb-4">
+                    <strong>Области применения:</strong><br>
+                    {{ range .Params.applications }}
+                    <span class="application-badge me-2 mb-2">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            
+            <div class="col-lg-4 text-center">
+                {{ if .Params.images }}
+                <div class="product-image-preview">
+                    {{ $firstImage := index .Params.images 0 }}
+                    <div class="preview-image-container mb-3">
+                        <img src="{{ printf "img/products/%s" $firstImage | relURL }}"
+                             alt="{{ .Title }}"
+                             class="img-fluid rounded shadow"
+                             style="max-height: 300px; object-fit: cover;">
+                    </div>
+                    <p class="text-muted small">
+                        <i class="fas fa-images me-1"></i>
+                        {{ len .Params.images }} изображени{{ if eq (len .Params.images) 1 }}е{{ else }}й{{ end }} доступно ниже
+                    </p>
+                </div>
+                {{ else }}
+                <div class="product-image-placeholder d-flex align-items-center justify-content-center rounded"
+                     style="height: 300px; background: #f8f9fa;">
+                    <i class="fas fa-microchip fa-4x text-muted"></i>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Содержимое страницы -->
+            <div class="content mb-5">
+                {{ .Content }}
+            </div>
+
+            <!-- Content renders directly from markdown -->
+        </div>
+
+        <div class="col-lg-4">
+            <!-- Карточка связи -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fas fa-phone text-primary me-2"></i>Получить консультацию
+                    </h5>
+                    <p class="card-text">Свяжитесь с нами для получения подробной информации о продукте и условиях поставки.</p>
+                    <a href="{{ "contacts/" | relURL }}" class="btn btn-primary w-100">
+                        <i class="fas fa-envelope me-2"></i>Связаться с нами
+                    </a>
+                </div>
+            </div>
+
+            <!-- Похожие продукты -->
+            {{ $related := .Site.RegularPages.Related . | first 3 }}
+            {{ if $related }}
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fas fa-boxes me-2"></i>Похожие продукты
+                    </h5>
+                    {{ range $related }}
+                    <div class="mb-3 pb-3 border-bottom">
+                        <h6><a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Title }}</a></h6>
+                        <small class="text-muted">{{ .Params.fullName | default .Title }}</small>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <!-- Product Images Gallery - Full Size After Content -->
+    {{ if .Params.images }}
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="product-images-section">
+                <h3 class="mb-4">
+                    <i class="fas fa-images me-2"></i>Изображения продукта
+                </h3>
+                <div class="row g-4">
+                    {{ range .Params.images }}
+                    <div class="col-md-6 col-lg-4">
+                        <div class="product-image-full">
+                            <img src="{{ printf "img/products/%s" . | relURL }}"
+                                 alt="{{ $.Title }}"
+                                 class="img-fluid rounded shadow-sm w-100"
+                                 style="cursor: pointer;"
+                                 data-image-src="{{ printf "img/products/%s" . | relURL }}"
+                                 data-image-alt="{{ $.Title }}"
+                                 onclick="openImageModal(this.dataset.imageSrc, this.dataset.imageAlt)">
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">{{ .Title }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+<script>
+function openImageModal(imageSrc, imageAlt) {
+    const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+    const modalImage = document.getElementById('modalImage');
+    modalImage.src = imageSrc;
+    modalImage.alt = imageAlt;
+    modal.show();
+}
+</script>
+{{ end }}
