@@ -2,227 +2,227 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Applications on АО «Точные машины»</title>
-    <link>http://localhost:1313/applications/</link>
+    <link>http://localhost:1313/tm-hugo/applications/</link>
     <description>Recent content in Applications on АО «Точные машины»</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
     <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/applications/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tm-hugo/applications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Автопилот</title>
-      <link>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82/</guid>
       <description></description>
     </item>
     <item>
       <title>Сельхозтехника</title>
-      <link>http://localhost:1313/applications/%D1%81%D0%B5%D0%BB%D1%8C%D1%85%D0%BE%D0%B7%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B5%D0%BB%D1%8C%D1%85%D0%BE%D0%B7%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%81%D0%B5%D0%BB%D1%8C%D1%85%D0%BE%D0%B7%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B5%D0%BB%D1%8C%D1%85%D0%BE%D0%B7%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Точное Земледелие</title>
-      <link>http://localhost:1313/applications/%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D0%B5/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Тракторы</title>
-      <link>http://localhost:1313/applications/%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Комбайны</title>
-      <link>http://localhost:1313/applications/%D0%BA%D0%BE%D0%BC%D0%B1%D0%B0%D0%B9%D0%BD%D1%8B/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BA%D0%BE%D0%BC%D0%B1%D0%B0%D0%B9%D0%BD%D1%8B/</link>
       <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BA%D0%BE%D0%BC%D0%B1%D0%B0%D0%B9%D0%BD%D1%8B/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BA%D0%BE%D0%BC%D0%B1%D0%B0%D0%B9%D0%BD%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Автоматизация</title>
-      <link>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Гидросистемы</title>
-      <link>http://localhost:1313/applications/%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Измерение Скорости</title>
-      <link>http://localhost:1313/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Контроль Оборотов</title>
-      <link>http://localhost:1313/applications/%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82%D0%BE%D0%B2/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82%D0%BE%D0%B2/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82%D0%BE%D0%B2/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82%D0%BE%D0%B2/</guid>
       <description></description>
     </item>
     <item>
       <title>Навигация</title>
-      <link>http://localhost:1313/applications/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Нивелирование</title>
-      <link>http://localhost:1313/applications/%D0%BD%D0%B8%D0%B2%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BD%D0%B8%D0%B2%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BD%D0%B8%D0%B2%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BD%D0%B8%D0%B2%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Стабилизация</title>
-      <link>http://localhost:1313/applications/%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Опрыскиватели</title>
-      <link>http://localhost:1313/applications/%D0%BE%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BE%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BE%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BE%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Сеялки</title>
-      <link>http://localhost:1313/applications/%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B8/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B8/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B8/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Вентиляция</title>
-      <link>http://localhost:1313/applications/%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Системы Охлаждения</title>
-      <link>http://localhost:1313/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BE%D1%85%D0%BB%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BE%D1%85%D0%BB%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BE%D1%85%D0%BB%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BE%D1%85%D0%BB%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Автобусы</title>
-      <link>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D1%8B/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D1%8B/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D1%8B/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Грузовики</title>
-      <link>http://localhost:1313/applications/%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Спецтехника</title>
-      <link>http://localhost:1313/applications/%D1%81%D0%BF%D0%B5%D1%86%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%81%D0%BF%D0%B5%D1%86%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%81%D0%BF%D0%B5%D1%86%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%81%D0%BF%D0%B5%D1%86%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Коммерческий Транспорт</title>
-      <link>http://localhost:1313/applications/%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</link>
       <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</guid>
       <description></description>
     </item>
     <item>
       <title>Измерение Углов Поворота</title>
-      <link>http://localhost:1313/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B3%D0%BB%D0%BE%D0%B2-%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B3%D0%BB%D0%BE%D0%B2-%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B3%D0%BB%D0%BE%D0%B2-%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B3%D0%BB%D0%BE%D0%B2-%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Системы Позиционирования</title>
-      <link>http://localhost:1313/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Автомобили</title>
-      <link>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Почвообрабатывающая Техника</title>
-      <link>http://localhost:1313/applications/%D0%BF%D0%BE%D1%87%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BF%D0%BE%D1%87%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BF%D0%BE%D1%87%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BF%D0%BE%D1%87%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Промышленное Оборудование</title>
-      <link>http://localhost:1313/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Промышленная Автоматика</title>
-      <link>http://localhost:1313/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Системы Управления</title>
-      <link>http://localhost:1313/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>IoT Системы</title>
-      <link>http://localhost:1313/applications/iot-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</link>
+      <link>http://localhost:1313/tm-hugo/applications/iot-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/iot-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/iot-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Телематика</title>
-      <link>http://localhost:1313/applications/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Удаленный Мониторинг</title>
-      <link>http://localhost:1313/applications/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</guid>
       <description></description>
     </item>
     <item>
       <title>Транспорт</title>
-      <link>http://localhost:1313/applications/%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</link>
+      <link>http://localhost:1313/tm-hugo/applications/%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/applications/%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</guid>
+      <guid>http://localhost:1313/tm-hugo/applications/%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</guid>
       <description></description>
     </item>
   </channel>

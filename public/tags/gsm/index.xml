@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GSM on АО «Точные машины»</title>
-    <link>http://localhost:1313/tags/gsm/</link>
+    <link>http://localhost:1313/tm-hugo/tags/gsm/</link>
     <description>Recent content in GSM on АО «Точные машины»</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
     <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gsm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tm-hugo/tags/gsm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>УТУД-РСМ</title>
-      <link>http://localhost:1313/products/utud-rsm/</link>
+      <link>http://localhost:1313/tm-hugo/products/utud-rsm/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/utud-rsm/</guid>
+      <guid>http://localhost:1313/tm-hugo/products/utud-rsm/</guid>
       <description>&lt;h1 id=&#34;утуд-рсм&#34;&gt;УТУД-РСМ&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Универсальное устройство обработки данных для удаленного мониторинга&lt;/strong&gt; — специализированное решение для систем телематики и IoT.&lt;/p&gt;&#xA;&lt;h2 id=&#34;основные-возможности&#34;&gt;Основные возможности&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;10.1&amp;quot; цветной дисплей&lt;/strong&gt; с разрешением 1024×768 и яркостью 800 кд/м²&lt;/li&gt;&#xA;&lt;li&gt;Встроенные &lt;strong&gt;GPS/GSM модули&lt;/strong&gt; для позиционирования и связи&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CAN-интерфейс&lt;/strong&gt; для подключения к бортовым системам&lt;/li&gt;&#xA;&lt;li&gt;Процессор &lt;strong&gt;iMX8M Plus&lt;/strong&gt; для высокой производительности&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;технические-характеристики&#34;&gt;Технические характеристики&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Параметр&lt;/th&gt;&#xA;          &lt;th&gt;Значение&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Процессор&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;iMX8M Plus&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Дисплей&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;10.1&amp;quot; 1024×768, 800 кд/м²&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Связь&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;GPS/GSM модули&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Интерфейс&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;CAN-интерфейс&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Рабочая температура&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-20&amp;hellip;+70°C&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;области-применения&#34;&gt;Области применения&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Удаленный мониторинг&lt;/strong&gt; — контроль состояния оборудования на расстоянии&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Телематика&lt;/strong&gt; — сбор и передача данных о работе техники&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;IoT системы&lt;/strong&gt; — интеграция в системы интернета вещей&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;преимущества&#34;&gt;Преимущества&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ &lt;strong&gt;Большой яркий дисплей&lt;/strong&gt; — удобное отображение информации&lt;/li&gt;&#xA;&lt;li&gt;✅ &lt;strong&gt;Встроенная связь&lt;/strong&gt; — GPS и GSM в одном устройстве&lt;/li&gt;&#xA;&lt;li&gt;✅ &lt;strong&gt;Промышленное исполнение&lt;/strong&gt; — надежная работа в сложных условиях&lt;/li&gt;&#xA;&lt;li&gt;✅ &lt;strong&gt;CAN-совместимость&lt;/strong&gt; — легкая интеграция с существующими системами&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Для получения подробной информации свяжитесь с нашими специалистами.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
