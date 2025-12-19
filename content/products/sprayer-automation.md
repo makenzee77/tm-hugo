@@ -2,7 +2,7 @@
 title: "Комплект автоматики для опрыскивателя"
 slug: "sprayer-automation"
 draft: false
-categories: ["systems"]
+categories: ["Комплекты"]
 applications: ["Опрыскиватель", "Сельхозтехника"]
 description: "Система автоматического контроля и распределения для опрыскивателей."
 ---

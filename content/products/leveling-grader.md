@@ -2,7 +2,7 @@
 title: "Комплект нивелирования для грейдера"
 slug: "leveling-grader"
 draft: false
-categories: ["systems"]
+categories: ["Комплекты"]
 applications: ["Грейдер", "Строительство"]
 description: "Система 2D/3D нивелирования для автогрейдеров по протоколу CAN J1939."
 ---

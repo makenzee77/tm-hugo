@@ -49,10 +49,7 @@
                              class="img-fluid rounded shadow"
                              style="max-height: 300px; object-fit: cover;">
                     </div>
-                    <p class="text-muted small">
-                        <i class="fas fa-images me-1"></i>
-                        {{ len .Params.images }} изображени{{ if eq (len .Params.images) 1 }}е{{ else }}й{{ end }} доступно ниже
-                    </p>
+                    
                 </div>
                 {{ else }}
                 <div class="product-image-placeholder d-flex align-items-center justify-content-center rounded"
@@ -108,33 +105,6 @@
         </div>
     </div>
 
-    <!-- Product Images Gallery - Full Size After Content -->
-    {{ if .Params.images }}
-    <div class="row mt-5">
-        <div class="col-12">
-            <div class="product-images-section">
-                <h3 class="mb-4">
-                    <i class="fas fa-images me-2"></i>Изображения продукта
-                </h3>
-                <div class="row g-4">
-                    {{ range .Params.images }}
-                    <div class="col-md-6 col-lg-4">
-                        <div class="product-image-full">
-                            <img src="{{ printf "img/products/%s" . | relURL }}"
-                                 alt="{{ $.Title }}"
-                                 class="img-fluid rounded shadow-sm w-100"
-                                 style="cursor: pointer;"
-                                 data-image-src="{{ printf "img/products/%s" . | relURL }}"
-                                 data-image-alt="{{ $.Title }}"
-                                 onclick="openImageModal(this.dataset.imageSrc, this.dataset.imageAlt)">
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Image Modal -->
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -149,7 +119,7 @@
             </div>
         </div>
     </div>
-    {{ end }}
+    
 </div>
 
 <script>

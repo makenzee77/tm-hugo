@@ -2,7 +2,7 @@
 title: "Комплект автовождения для трактора"
 slug: "autosteer-tractor"
 draft: false
-categories: ["systems"]
+categories: ["Комплекты"]
 applications: ["Трактор", "Сельхозтехника"]
 description: "Система автоматического управления трактором с точностью до 2.5 см RTK."
 ---
