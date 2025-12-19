@@ -14,5 +14,19 @@
       <guid>http://localhost:1313/tm-hugo/products/autosteer-tractor/</guid>
       <description>&lt;h1 id=&#34;комплект-автовождения-для-трактора&#34;&gt;Комплект автовождения для трактора&lt;/h1&gt;&#xA;&lt;p&gt;(сюда текст, таблица характеристик и т.п.)&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Комплект автоматики для опрыскивателя</title>
+      <link>http://localhost:1313/tm-hugo/products/sprayer-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/products/sprayer-automation/</guid>
+      <description>&lt;h1 id=&#34;комплект-автоматики-для-опрыскивателя&#34;&gt;Комплект автоматики для опрыскивателя&lt;/h1&gt;&#xA;&lt;p&gt;(контент страницы)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Комплект нивелирования для грейдера</title>
+      <link>http://localhost:1313/tm-hugo/products/leveling-grader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/products/leveling-grader/</guid>
+      <description>&lt;h1 id=&#34;комплект-нивелирования-для-грейдера&#34;&gt;Комплект нивелирования для грейдера&lt;/h1&gt;&#xA;&lt;p&gt;(контент страницы)&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

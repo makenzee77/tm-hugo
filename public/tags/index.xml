@@ -107,27 +107,6 @@
       <description></description>
     </item>
     <item>
-      <title>IMU</title>
-      <link>http://localhost:1313/tm-hugo/tags/imu/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/imu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Инерциальный</title>
-      <link>http://localhost:1313/tm-hugo/tags/%D0%B8%D0%BD%D0%B5%D1%80%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/%D0%B8%D0%BD%D0%B5%D1%80%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Навигация</title>
-      <link>http://localhost:1313/tm-hugo/tags/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Секции</title>
       <link>http://localhost:1313/tm-hugo/tags/%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
@@ -205,20 +184,6 @@
       <description></description>
     </item>
     <item>
-      <title>Дисплей</title>
-      <link>http://localhost:1313/tm-hugo/tags/%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9/</link>
-      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Приборная Панель</title>
-      <link>http://localhost:1313/tm-hugo/tags/%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C/</link>
-      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Системы Управления</title>
       <link>http://localhost:1313/tm-hugo/tags/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
@@ -237,27 +202,6 @@
       <link>http://localhost:1313/tm-hugo/tags/%D1%83%D1%82%D1%83%D0%B4/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tm-hugo/tags/%D1%83%D1%82%D1%83%D0%B4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RS-485</title>
-      <link>http://localhost:1313/tm-hugo/tags/rs-485/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/rs-485/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>БКУ</title>
-      <link>http://localhost:1313/tm-hugo/tags/%D0%B1%D0%BA%D1%83/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/%D0%B1%D0%BA%D1%83/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Коммутация</title>
-      <link>http://localhost:1313/tm-hugo/tags/%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/tags/%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
@@ -286,6 +230,76 @@
       <link>http://localhost:1313/tm-hugo/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tm-hugo/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IMU</title>
+      <link>http://localhost:1313/tm-hugo/tags/imu/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/imu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>БКУ</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D0%B1%D0%BA%D1%83/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D0%B1%D0%BA%D1%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Инерциальный Датчик</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D0%B8%D0%BD%D0%B5%D1%80%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D0%B8%D0%BD%D0%B5%D1%80%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Коммутация</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Навигация</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Панель Приборов</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%BE%D0%B2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%BE%D0%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Транспорт</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Угловая Скорость</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ускорение</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D1%83%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D1%83%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Цифровой Дисплей</title>
+      <link>http://localhost:1313/tm-hugo/tags/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/tags/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9/</guid>
       <description></description>
     </item>
   </channel>
