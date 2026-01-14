@@ -16,7 +16,7 @@ temperature: "-20...+60°C"
 protection: "IP65"
 
 # Категории и теги
-categories: ["automation"]
+categories: ["kits"]
 tags: ["опрыскиватель", "Section Control", "точное земледелие", "автоматизация", "ISOBUS"]
 applications: ["Защита растений", "Внесение удобрений", "Точное земледелие", "Сельхозтехника"]
 

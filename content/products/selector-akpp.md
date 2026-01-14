@@ -19,7 +19,7 @@ applications: ["Автобусы", "Грузовики", "Спецтехника
 
 # Изображения
 images:
-  - "selector_akpp_1.jpg"
+  - "АКПП.png"
   - "selector_akpp_2.jpg"
   - "selector_akpp_3.jpg"
 

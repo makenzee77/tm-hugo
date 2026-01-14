@@ -18,7 +18,7 @@ applications: ["Измерение скорости", "Контроль обор
 
 # Изображения
 images:
-  - "sensor_speed_1.jpg"
+  - "Speedsensor.png"
   - "sensor_speed_2.jpg"
   - "sensor_speed_3.jpg"
 

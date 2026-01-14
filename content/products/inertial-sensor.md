@@ -42,17 +42,13 @@ description: "Инерциальный измерительный модуль (
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#imuCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
       <button type="button" data-bs-target="#imuCarousel" data-bs-slide-to="1" aria-label="Слайд 2"></button>
-      <button type="button" data-bs-target="#imuCarousel" data-bs-slide-to="2" aria-label="Слайд 3"></button>
     </div>
     <div class="carousel-inner rounded">
       <div class="carousel-item active">
         <img src="/tm-hugo/img/products/sensor_inertial_1.jpg" class="d-block w-100 rounded" alt="Инерциальный датчик - общий вид">
       </div>
       <div class="carousel-item">
-        <img src="/tm-hugo/img/products/imu_sensor_2.jpg" class="d-block w-100 rounded" alt="Инерциальный датчик - установка">
-      </div>
-      <div class="carousel-item">
-        <img src="/tm-hugo/img/products/imu_sensor_3.jpg" class="d-block w-100 rounded" alt="Инерциальный датчик - габаритный чертеж">
+        <img src="/tm-hugo/img/products/Инерциальный.png" class="d-block w-100 rounded" alt="Инерциальный датчик - установка">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#imuCarousel" data-bs-slide="prev">

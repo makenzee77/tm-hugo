@@ -1,64 +1,143 @@
 {{ define "main" }}
 <div class="container py-5">
+    <!-- Заголовок страницы -->
     <div class="text-center mb-5">
-        <h1 class="section-title">{{ .Title }}</h1>
-        <p class="section-subtitle">{{ .Description }}</p>
+        <h1 class="display-4 fw-bold mb-3">{{ .Title }}</h1>
+        <p class="lead text-muted">{{ .Description }}</p>
     </div>
 
-    <div class="row">
-        <!-- Боковая панель с категориями (слева) -->
-        <div class="col-lg-3 col-md-4 mb-4">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Категории</h5>
-                    <div class="list-group list-group-flush">
-                        <button class="list-group-item list-group-item-action bg-danger text-white border-danger fw-semibold filter-btn active" data-category="all">
-                            Все продукты
+    <div class="row g-4">
+        <!-- Боковая панель с категориями -->
+        <div class="col-lg-3 col-md-4">
+            <div class="card shadow-sm border-0 mb-4">
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-bold mb-4">
+                        <i class="fas fa-filter me-2 text-danger"></i>Категории
+                    </h5>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-danger text-start filter-btn active" data-category="all">
+                            <i class="fas fa-th-large me-2"></i>Все продукты
                         </button>
                         {{ range .Site.Taxonomies.categories }}
-                        <button class="list-group-item list-group-item-action filter-btn" data-category="{{ .Page.Title | urlize }}">
+                        <button class="btn btn-outline-danger text-start filter-btn" data-category="{{ .Page.Title | urlize }}">
                             {{ partial "category-title.html" (.Page.Title | lower) }}
                         </button>
                         {{ end }}
                     </div>
                 </div>
             </div>
+
+            <!-- Дополнительный блок помощи -->
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-4 bg-light">
+                    <h6 class="fw-bold mb-3">
+                        <i class="fas fa-question-circle me-2 text-danger"></i>Нужна помощь?
+                    </h6>
+                    <p class="small text-muted mb-3">Наши специалисты помогут подобрать оптимальное решение для ваших задач.</p>
+                    <a href="{{ "contacts/" | relURL }}" class="btn btn-sm btn-danger w-100">
+                        <i class="fas fa-phone me-2"></i>Связаться
+                    </a>
+                </div>
+            </div>
         </div>
 
-        <!-- Сетка продуктов (справа) -->
+        <!-- Сетка продуктов -->
         <div class="col-lg-9 col-md-8">
+            <!-- Счетчик продуктов -->
+            <div class="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom">
+                <div>
+                    <span class="text-muted">Показано: </span>
+                    <span class="fw-bold text-danger" id="product-count">{{ len .Pages }}</span>
+                    <span class="text-muted"> продуктов</span>
+                </div>
+            </div>
+
+            <!-- Сетка продуктов -->
             <div class="row g-4" id="products-grid">
                 {{ range .Pages }}
-                <div class="col-lg-4 col-md-6 product-item" data-category="{{ range .Params.categories }}{{ . | urlize }}{{ end }}">
+                <div class="col-lg-4 col-sm-6 product-item" data-category="{{ range .Params.categories }}{{ . | urlize }}{{ end }}">
                     {{ partial "product-card.html" . }}
                 </div>
                 {{ end }}
             </div>
 
             <!-- Сообщение если продукты не найдены -->
-            <div id="no-products" class="text-center py-5" style="display: none;">
-                <i class="fas fa-search fa-3x text-muted mb-3"></i>
-                <h4 class="text-muted">Продукты не найдены</h4>
-                <p class="text-muted">Попробуйте выбрать другую категорию</p>
+            <div id="no-products" class="text-center py-5 d-none">
+                <div class="mb-4">
+                    <i class="fas fa-box-open fa-4x text-muted opacity-50"></i>
+                </div>
+                <h4 class="text-muted mb-3">Продукты не найдены</h4>
+                <p class="text-muted mb-4">В выбранной категории пока нет продуктов</p>
+                <button class="btn btn-outline-danger filter-btn" data-category="all">
+                    <i class="fas fa-redo me-2"></i>Показать все продукты
+                </button>
             </div>
         </div>
     </div>
 
-    <!-- Информация о компании -->
+    <!-- Блок с призывом к действию -->
+    <div class="row mt-5 pt-5">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
+                <div class="card-body p-5 text-center">
+                    <i class="fas fa-headset fa-3x mb-4 opacity-75"></i>
+                    <h3 class="fw-bold mb-3">Техническая поддержка и консультации</h3>
+                    <p class="lead mb-4 opacity-90">
+                        Для получения подробной информации о продуктах, технических консультаций 
+                        или оформления заказа обращайтесь к нашим специалистам.
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        <a href="{{ "contacts/" | relURL }}" class="btn btn-light btn-lg">
+                            <i class="fas fa-phone me-2"></i>Связаться с нами
+                        </a>
+                        <a href="mailto:{{ .Site.Params.company.email }}" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-envelope me-2"></i>{{ .Site.Params.company.email }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Преимущества компании -->
     <div class="row mt-5 pt-5 border-top">
-        <div class="col-lg-8 mx-auto text-center">
-            <h3 class="mb-4">Техническая поддержка</h3>
-            <p class="lead mb-4">
-                Для получения подробной информации о любом продукте, технических консультаций 
-                или оформления заказа обращайтесь к нашим специалистам.
-            </p>
-            <div class="d-flex gap-3 justify-content-center flex-wrap">
-                <a href="{{ "contacts/" | relURL }}" class="btn btn-primary">
-                    <i class="fas fa-phone me-2"></i>Связаться с нами
-                </a>
-                <a href="mailto:{{ .Site.Params.company.email }}" class="btn btn-outline-primary">
-                    <i class="fas fa-envelope me-2"></i>{{ .Site.Params.company.email }}
-                </a>
+        <div class="col-12 text-center mb-4">
+            <h3 class="fw-bold">Почему выбирают нас</h3>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="text-center">
+                <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <i class="fas fa-award fa-2x text-danger"></i>
+                </div>
+                <h5 class="fw-bold">Собственное производство</h5>
+                <p class="text-muted small">Разработка и изготовление в Екатеринбурге</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="text-center">
+                <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <i class="fas fa-cog fa-2x text-danger"></i>
+                </div>
+                <h5 class="fw-bold">Индивидуальные решения</h5>
+                <p class="text-muted small">Адаптация под специфические задачи</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="text-center">
+                <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <i class="fas fa-shield-alt fa-2x text-danger"></i>
+                </div>
+                <h5 class="fw-bold">Промышленное качество</h5>
+                <p class="text-muted small">IP65-67, работа при -40...+70°C</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="text-center">
+                <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <i class="fas fa-life-ring fa-2x text-danger"></i>
+                </div>
+                <h5 class="fw-bold">Техподдержка</h5>
+                <p class="text-muted small">Полное сопровождение проектов</p>
             </div>
         </div>
     </div>
@@ -69,6 +148,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const filterBtns = document.querySelectorAll('.filter-btn');
     const productItems = document.querySelectorAll('.product-item');
     const noProductsMsg = document.getElementById('no-products');
+    const productCount = document.getElementById('product-count');
+    const productsGrid = document.getElementById('products-grid');
 
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
@@ -76,27 +157,37 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Обновить активную кнопку
             filterBtns.forEach(b => {
-                b.classList.remove('bg-danger', 'text-white', 'border-danger', 'fw-semibold', 'active');
+                if (b.dataset.category === category) {
+                    b.classList.remove('btn-outline-danger');
+                    b.classList.add('btn-danger', 'active');
+                } else {
+                    b.classList.remove('btn-danger', 'active');
+                    b.classList.add('btn-outline-danger');
+                }
             });
-            this.classList.add('bg-danger', 'text-white', 'border-danger', 'fw-semibold', 'active');
             
             // Фильтровать продукты
             let visibleCount = 0;
             productItems.forEach(item => {
                 const itemCategory = item.dataset.category;
                 if (category === 'all' || itemCategory === category) {
-                    item.style.display = 'block';
+                    item.classList.remove('d-none');
                     visibleCount++;
                 } else {
-                    item.style.display = 'none';
+                    item.classList.add('d-none');
                 }
             });
             
+            // Обновить счетчик
+            productCount.textContent = visibleCount;
+            
             // Показать/скрыть сообщение "не найдено"
             if (visibleCount === 0) {
-                noProductsMsg.style.display = 'block';
+                noProductsMsg.classList.remove('d-none');
+                productsGrid.classList.add('d-none');
             } else {
-                noProductsMsg.style.display = 'none';
+                noProductsMsg.classList.add('d-none');
+                productsGrid.classList.remove('d-none');
             }
         });
     });

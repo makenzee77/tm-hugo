@@ -44,10 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Processing</title>
-      <link>http://localhost:1313/tm-hugo/categories/processing/</link>
-      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/categories/processing/</guid>
+      <title>Automation</title>
+      <link>http://localhost:1313/tm-hugo/categories/automation/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/categories/automation/</guid>
       <description></description>
     </item>
     <item>
@@ -58,10 +58,10 @@
       <description></description>
     </item>
     <item>
-      <title>Комплекты</title>
-      <link>http://localhost:1313/tm-hugo/categories/%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%D1%8B/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/categories/%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%D1%8B/</guid>
+      <title>Processing</title>
+      <link>http://localhost:1313/tm-hugo/categories/processing/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/categories/processing/</guid>
       <description></description>
     </item>
   </channel>

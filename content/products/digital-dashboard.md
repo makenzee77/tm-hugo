@@ -18,7 +18,7 @@ dimensions: "327x109 мм"
 prodweight: "1.5 кг"
 
 # Категории и теги
-categories: ["display"]
+categories: ["displays"]
 tags: ["панель приборов", "цифровой дисплей", "транспорт", "CAN"]
 applications: ["Транспорт", "Сельхозтехника", "Спецтехника", "Строительная техника"]
 
@@ -43,7 +43,6 @@ description: "Цифровая панель приборная для транс
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#dashboardCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
       <button type="button" data-bs-target="#dashboardCarousel" data-bs-slide-to="1" aria-label="Слайд 2"></button>
-      <button type="button" data-bs-target="#dashboardCarousel" data-bs-slide-to="2" aria-label="Слайд 3"></button>
     </div>
     <div class="carousel-inner rounded">
       <div class="carousel-item active">
@@ -51,9 +50,6 @@ description: "Цифровая панель приборная для транс
       </div>
       <div class="carousel-item">
         <img src="/tm-hugo/img/products/digital_dashboard_2.jpg" class="d-block w-100 rounded" alt="Цифровая панель приборная - установка">
-      </div>
-      <div class="carousel-item">
-        <img src="/tm-hugo/img/products/digital_dashboard_3.jpg" class="d-block w-100 rounded" alt="Цифровая панель приборная - габаритный чертеж">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#dashboardCarousel" data-bs-slide="prev">

@@ -21,7 +21,7 @@ applications: ["Транспорт", "Сельхозтехника", "Промы
 
 # Изображения
 images:
-  - "/bku_ptz_1.jpg"
+  - "/БКУ фронт.png"
 
 # SEO
 description: "Блок коммутации универсальный БКУ-ПТЗ для систем управления транспортом и спецтехникой. Надежное решение для промышленной автоматики с защитой IP54."
@@ -46,17 +46,13 @@ description: "Блок коммутации универсальный БКУ-П
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#bkuCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
       <button type="button" data-bs-target="#bkuCarousel" data-bs-slide-to="1" aria-label="Слайд 2"></button>
-      <button type="button" data-bs-target="#bkuCarousel" data-bs-slide-to="2" aria-label="Слайд 3"></button>
     </div>
     <div class="carousel-inner rounded">
       <div class="carousel-item active">
-        <img src="/tm-hugo/img/products/bku_ptz_1.jpg" class="d-block w-100 rounded" alt="БКУ-ПТЗ - общий вид">
+        <img src="/tm-hugo/img/products/БКУ фронт.png" class="d-block w-100 rounded" alt="БКУ-ПТЗ - общий вид">
       </div>
       <div class="carousel-item">
-        <img src="/tm-hugo/img/products/bku_2.jpg" class="d-block w-100 rounded" alt="БКУ-ПТЗ - установка">
-      </div>
-      <div class="carousel-item">
-        <img src="/tm-hugo/img/products/bku_ptz_3.jpg" class="d-block w-100 rounded" alt="БКУ-ПТЗ - габаритный чертеж">
+        <img src="/tm-hugo/img/products/БКУ бок.png" class="d-block w-100 rounded" alt="БКУ-ПТЗ - установка">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#bkuCarousel" data-bs-slide="prev">

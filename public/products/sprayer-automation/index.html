@@ -64,70 +64,151 @@
 <div class="container py-5">
     
     <div class="mb-4">
-        <a href="/tm-hugo/products/" class="btn btn-outline-secondary">
-            <i class="fas fa-arrow-left me-2"></i>Вернуться к каталогу
+        <a href="/tm-hugo/products/" class="btn btn-outline-danger">
+            <i class="fas fa-arrow-left me-2"></i>Назад к каталогу
         </a>
     </div>
 
     
-    <div class="product-hero mb-5">
+    <div class="mb-5">
         <div class="row align-items-center">
             <div class="col-lg-8">
-                <h1 class="mb-3">Автоматический контроль секций и нормы внесения</h1>
                 <div class="mb-3">
-                    <strong>Модель:</strong> Система автоматизации опрыскивателя
                     
-                    | <strong>Артикул:</strong> SPRAYER-AUTO-001
+                    
+                    <span class="badge bg-danger bg-opacity-10 text-danger border border-danger me-2">
+                        <i class="fas fa-tag me-1"></i>
+
+Готовые наборы
+                    </span>
+                    
                     
                 </div>
                 
+                <h1 class="display-5 fw-bold mb-3">Автоматический контроль секций и нормы внесения</h1>
                 
                 <div class="mb-4">
+                    <span class="text-muted me-3">
+                        <i class="fas fa-cube me-2"></i><strong>Модель:</strong> Система автоматизации опрыскивателя
+                    </span>
                     
-                    <span class="badge bg-primary me-2">
-                        <i class="fas fa-microchip me-1"></i>Automation
+                    <span class="text-muted">
+                        <i class="fas fa-barcode me-2"></i><strong>Артикул:</strong> SPRAYER-AUTO-001
                     </span>
                     
                 </div>
-                
 
                 
-                <div class="applications-list mb-4">
-                    <strong>Области применения:</strong><br>
-                    
-                    <span class="application-badge me-2 mb-2">Защита растений</span>
-                    
-                    <span class="application-badge me-2 mb-2">Внесение удобрений</span>
-                    
-                    <span class="application-badge me-2 mb-2">Точное земледелие</span>
-                    
-                    <span class="application-badge me-2 mb-2">Сельхозтехника</span>
-                    
+                <div class="mb-4">
+                    <h6 class="fw-bold mb-3">
+                        <i class="fas fa-industry me-2 text-danger"></i>Области применения:
+                    </h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        
+                        <span class="badge bg-light text-dark border px-3 py-2">
+                            <i class="fas fa-check-circle me-1 text-success"></i>Защита растений
+                        </span>
+                        
+                        <span class="badge bg-light text-dark border px-3 py-2">
+                            <i class="fas fa-check-circle me-1 text-success"></i>Внесение удобрений
+                        </span>
+                        
+                        <span class="badge bg-light text-dark border px-3 py-2">
+                            <i class="fas fa-check-circle me-1 text-success"></i>Точное земледелие
+                        </span>
+                        
+                        <span class="badge bg-light text-dark border px-3 py-2">
+                            <i class="fas fa-check-circle me-1 text-success"></i>Сельхозтехника
+                        </span>
+                        
+                    </div>
                 </div>
                 
             </div>
             
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4">
                 
-                <div class="product-image-preview">
+                <div class="position-relative">
                     
-                    <div class="preview-image-container mb-3">
-                        <img src="/tm-hugo/img/products/sprayer_automation_1.png"
-                             alt="Система автоматизации опрыскивателя"
-                             class="img-fluid rounded shadow"
-                             style="max-height: 300px; object-fit: cover;">
+                    <img src="/tm-hugo/img/products/sprayer_automation_1.png"
+                         alt="Система автоматизации опрыскивателя"
+                         class="img-fluid rounded-3 shadow-lg w-100 bg-light p-3"
+                         style="max-height: 350px; object-fit: contain; cursor: pointer;"
+                         onclick="openImageModal(this.src, 'Система автоматизации опрыскивателя')">
+                    <div class="position-absolute bottom-0 end-0 m-3">
+                        <span class="badge bg-dark bg-opacity-75">
+                            <i class="fas fa-search-plus me-1"></i>Увеличить
+                        </span>
                     </div>
-                    
                 </div>
                 
             </div>
         </div>
     </div>
 
+    
+    
+    <div class="card border-0 shadow-sm mb-5">
+        <div class="card-body p-4">
+            <h5 class="card-title fw-bold mb-4">
+                <i class="fas fa-info-circle me-2 text-danger"></i>Краткие характеристики
+            </h5>
+            <div class="row g-3">
+                
+                
+                <div class="col-md-6">
+                    <div class="d-flex align-items-start">
+                        <i class="fas fa-plug text-danger me-3 mt-1"></i>
+                        <div>
+                            <small class="text-muted d-block">Питание</small>
+                            <strong>12-24В</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6">
+                    <div class="d-flex align-items-start">
+                        <i class="fas fa-network-wired text-danger me-3 mt-1"></i>
+                        <div>
+                            <small class="text-muted d-block">Интерфейсы</small>
+                            <strong>CAN, ISOBUS</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6">
+                    <div class="d-flex align-items-start">
+                        <i class="fas fa-thermometer-half text-danger me-3 mt-1"></i>
+                        <div>
+                            <small class="text-muted d-block">Температура</small>
+                            <strong>-20...&#43;60°C</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6">
+                    <div class="d-flex align-items-start">
+                        <i class="fas fa-shield-alt text-danger me-3 mt-1"></i>
+                        <div>
+                            <small class="text-muted d-block">Защита</small>
+                            <strong>IP65</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
     <div class="row">
         <div class="col-lg-8">
             
-            <div class="content mb-5">
+            <div class="mb-5">
                 <h2 id="описание">Описание</h2>
 <p><strong>Система автоматизации опрыскивателя</strong> — интеллектуальное решение для точного внесения средств защиты растений и жидких удобрений, обеспечивающее автоматическое управление секциями штанги и контроль нормы внесения. Система использует спутниковое позиционирование для отслеживания положения техники на поле и автоматически отключает секции или отдельные форсунки при заходе на уже обработанные участки.</p>
 <p>Технология Section Control решает главную проблему традиционного опрыскивания — перекрытия обработанных зон и неравномерное распределение препаратов. Система автоматически поддерживает заданную норму внесения при изменении скорости движения, обеспечивает равномерное покрытие независимо от конфигурации поля и документирует все операции для отчетности. Интеграция с протоколом ISOBUS позволяет работать с любым современным опрыскивающим оборудованием.</p>
@@ -299,38 +380,81 @@
 📄 [Скачать руководство по установке (PDF)](/tm-hugo/docs/Sprayer-Automation-installation</p>
 
             </div>
-
-            
         </div>
 
         <div class="col-lg-4">
             
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <i class="fas fa-phone text-primary me-2"></i>Получить консультацию
-                    </h5>
-                    <p class="card-text">Свяжитесь с нами для получения подробной информации о продукте и условиях поставки.</p>
-                    <a href="/tm-hugo/contacts/" class="btn btn-primary w-100">
-                        <i class="fas fa-envelope me-2"></i>Связаться с нами
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-body p-4">
+                    <div class="text-center mb-4">
+                        <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <i class="fas fa-headset fa-2x text-danger"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Получить консультацию</h5>
+                        <p class="card-text text-muted small">Свяжитесь с нами для получения подробной информации о продукте и условиях поставки.</p>
+                    </div>
+                    <a href="/tm-hugo/contacts/" class="btn btn-danger w-100 mb-2">
+                        <i class="fas fa-phone me-2"></i>Связаться с нами
+                    </a>
+                    <a href="mailto:info@precisionmachines.pro" class="btn btn-outline-danger w-100">
+                        <i class="fas fa-envelope me-2"></i>Написать Email
                     </a>
                 </div>
             </div>
 
             
+            <div class="card border-0 shadow-sm mb-4 bg-light">
+                <div class="card-body p-4">
+                    <h6 class="fw-bold mb-3">
+                        <i class="fas fa-check-circle me-2 text-success"></i>Преимущества
+                    </h6>
+                    <ul class="list-unstyled mb-0 small">
+                        <li class="mb-2">
+                            <i class="fas fa-award text-warning me-2"></i>Собственное производство
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-tools text-primary me-2"></i>Техническая поддержка
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-shield-alt text-success me-2"></i>Гарантия качества
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-truck text-info me-2"></i>Доставка по России
+                        </li>
+                        <li class="mb-0">
+                            <i class="fas fa-cog text-danger me-2"></i>Индивидуальные решения
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             
             
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <i class="fas fa-boxes me-2"></i>Похожие продукты
-                    </h5>
+            
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h6 class="card-title fw-bold mb-3">
+                        <i class="fas fa-cubes me-2 text-danger"></i>Похожие продукты
+                    </h6>
                     
                     <div class="mb-3 pb-3 border-bottom">
-                        <h6><a href="/tm-hugo/products/autosteer-tractor/" class="text-decoration-none">Autosteer для тракторов</a></h6>
-                        <small class="text-muted">Система автоматического вождения для сельхозтехники</small>
+                        <a href="/tm-hugo/products/autosteer-tractor/" class="text-decoration-none">
+                            <h6 class="mb-1 text-danger">Autosteer для тракторов</h6>
+                            <small class="text-muted">Система автоматического вождения для сельхозтехники</small>
+                        </a>
                     </div>
                     
+                    <div class="mb-3 pb-3 border-bottom">
+                        <a href="/tm-hugo/products/leveling-grader/" class="text-decoration-none">
+                            <h6 class="mb-1 text-danger">Система автоматического нивелирования для грейдера</h6>
+                            <small class="text-muted">Система автоматического нивелирования для грейдера</small>
+                        </a>
+                    </div>
+                    
+                    <a href="/tm-hugo/products/" class="btn btn-sm btn-outline-danger w-100 mt-2">
+                        <i class="fas fa-th me-2"></i>Все продукты
+                    </a>
                 </div>
             </div>
             
@@ -338,20 +462,41 @@
     </div>
 
     
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="imageModalLabel">Система автоматизации опрыскивателя</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id="modalImage" src="" alt="" class="img-fluid">
+    <div class="row mt-5 pt-5 border-top">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
+                <div class="card-body p-5 text-center">
+                    <i class="fas fa-file-alt fa-3x mb-4 opacity-75"></i>
+                    <h3 class="fw-bold mb-3">Нужна техническая документация?</h3>
+                    <p class="lead mb-4 opacity-90">
+                        Получите полную техническую документацию, спецификации и руководства по эксплуатации
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        <a href="/tm-hugo/contacts/" class="btn btn-light btn-lg">
+                            <i class="fas fa-download me-2"></i>Запросить документацию
+                        </a>
+                        <a href="/tm-hugo/products/" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-arrow-left me-2"></i>К каталогу продуктов
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center p-4 bg-light">
+                <img id="modalImage" src="" alt="" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -408,7 +553,7 @@ function openImageModal(imageSrc, imageAlt) {
             </div>
 
             <div class="footer-bottom">
-                <div>© 2025 АО «Точные машины». Все права защищены.</div>
+                <div>© 2026 АО «Точные машины». Все права защищены.</div>
                 <div>ИНН 6670518046 - КПП 667001001 - ОГРН 1236600048937</div>
             </div>
         </div>

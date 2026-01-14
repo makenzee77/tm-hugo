@@ -19,7 +19,7 @@ applications: ["Гидросистемы", "Автоматизация", "Сел
 
 # Изображения
 images:
-  - "valve_2.jpg"
+  - "Valve2.png"
   - "valve_3.jpg"
 
 # SEO
