@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tm-hugo/categories/displays/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Цифровая панель приборная</title>
+      <link>http://localhost:1313/tm-hugo/products/digital-dashboard/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/products/digital-dashboard/</guid>
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Цифровая панель приборная&lt;/strong&gt; предназначена для отображения информации, необходимой для управления транспортным средством. Панель получает информацию для отображения по цифровому каналу, что обеспечивает надежную работу при размещении в значительном удалении от источника данных.&lt;/p&gt;&#xA;&lt;p&gt;Устройство построено на базе мощного процессора iMX8M Plus с частотой 1.6 GHz и оснащено ярким LCD-экраном с разрешением 1920×720 пикселей и яркостью 800 cd/m². Встроенная акустическая система позволяет обеспечить голосовое информирование оператора о состоянии систем и предупреждениях. Цифровая панель имеет компактную конструкцию, что позволяет устанавливать её в широкий спектр уже готовых конструкторских решений при использовании индивидуальных крепежных элементов.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Подрулька</title>
       <link>http://localhost:1313/tm-hugo/products/control-panel/</link>
       <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>

@@ -23,7 +23,7 @@ applications: ["Навигация", "Сельхозтехника", "Авиац
 
 # Изображения
 images:
-  - "/sensor_inertial_1.jpg"
+  - "/Инерциальный.png"
 
 # SEO
 description: "Инерциальный измерительный модуль (IMU) с высокой точностью ±0.05° и стабильностью 1°/час. Для навигационных систем, сельхозтехники и промышленной автоматики."
@@ -45,10 +45,10 @@ description: "Инерциальный измерительный модуль (
     </div>
     <div class="carousel-inner rounded">
       <div class="carousel-item active">
-        <img src="/tm-hugo/img/products/sensor_inertial_1.jpg" class="d-block w-100 rounded" alt="Инерциальный датчик - общий вид">
+        <img src="/tm-hugo/img/products/Инерциальный.png" class="d-block w-100 rounded" alt="Инерциальный датчик - общий вид">
       </div>
       <div class="carousel-item">
-        <img src="/tm-hugo/img/products/Инерциальный.png" class="d-block w-100 rounded" alt="Инерциальный датчик - установка">
+        <img src="/tm-hugo/img/products/Инерциальный вектор.png" class="d-block w-100 rounded" alt="Инерциальный датчик - установка">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#imuCarousel" data-bs-slide="prev">

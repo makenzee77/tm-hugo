@@ -64,64 +64,119 @@
 <div class="container py-5">
     
     <div class="mb-4">
-        <a href="/tm-hugo/products/" class="btn btn-outline-secondary">
-            <i class="fas fa-arrow-left me-2"></i>Вернуться к каталогу
+        <a href="/tm-hugo/products/" class="btn btn-outline-danger">
+            <i class="fas fa-arrow-left me-2"></i>Назад к каталогу
         </a>
     </div>
 
     
-    <div class="product-hero mb-5">
+    <div class="mb-5">
         <div class="row align-items-center">
             <div class="col-lg-8">
-                <h1 class="mb-3">Блок энкодера с CAN интерфейсом</h1>
                 <div class="mb-3">
-                    <strong>Модель:</strong> Блок энкодера
+                    
+                    
+                    <span class="badge bg-danger bg-opacity-10 text-danger border border-danger me-2">
+                        <i class="fas fa-tag me-1"></i>
+
+Коммутация
+                    </span>
+                    
                     
                 </div>
                 
+                <h1 class="display-5 fw-bold mb-3">Блок энкодера с CAN интерфейсом</h1>
                 
                 <div class="mb-4">
-                    
-                    <span class="badge bg-primary me-2">
-                        <i class="fas fa-microchip me-1"></i>Switching
+                    <span class="text-muted me-3">
+                        <i class="fas fa-cube me-2"></i><strong>Модель:</strong> Блок энкодера
                     </span>
                     
                 </div>
-                
 
                 
-                <div class="applications-list mb-4">
-                    <strong>Области применения:</strong><br>
-                    
-                    <span class="application-badge me-2 mb-2">Системы позиционирования</span>
-                    
-                    <span class="application-badge me-2 mb-2">Измерение углов поворота</span>
-                    
+                <div class="mb-4">
+                    <h6 class="fw-bold mb-3">
+                        <i class="fas fa-industry me-2 text-danger"></i>Области применения:
+                    </h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        
+                        <span class="badge bg-light text-dark border px-3 py-2">
+                            <i class="fas fa-check-circle me-1 text-success"></i>Системы позиционирования
+                        </span>
+                        
+                        <span class="badge bg-light text-dark border px-3 py-2">
+                            <i class="fas fa-check-circle me-1 text-success"></i>Измерение углов поворота
+                        </span>
+                        
+                    </div>
                 </div>
                 
             </div>
             
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4">
                 
-                <div class="product-image-preview">
+                <div class="position-relative">
                     
-                    <div class="preview-image-container mb-3">
-                        <img src="/tm-hugo/img/products/%d0%ad%d0%bd%d0%ba%d0%be%d0%b4%d0%b5%d1%802.png"
-                             alt="Блок энкодера"
-                             class="img-fluid rounded shadow"
-                             style="max-height: 300px; object-fit: cover;">
+                    <img src="/tm-hugo/img/products/%d0%ad%d0%bd%d0%ba%d0%be%d0%b4%d0%b5%d1%802.png"
+                         alt="Блок энкодера"
+                         class="img-fluid rounded-3 shadow-lg w-100 bg-light p-3"
+                         style="max-height: 350px; object-fit: contain; cursor: pointer;"
+                         onclick="openImageModal(this.src, 'Блок энкодера')">
+                    <div class="position-absolute bottom-0 end-0 m-3">
+                        <span class="badge bg-dark bg-opacity-75">
+                            <i class="fas fa-search-plus me-1"></i>Увеличить
+                        </span>
                     </div>
-                    
                 </div>
                 
             </div>
         </div>
     </div>
 
+    
+    
+    <div class="card border-0 shadow-sm mb-5">
+        <div class="card-body p-4">
+            <h5 class="card-title fw-bold mb-4">
+                <i class="fas fa-info-circle me-2 text-danger"></i>Краткие характеристики
+            </h5>
+            <div class="row g-3">
+                
+                
+                <div class="col-md-6">
+                    <div class="d-flex align-items-start">
+                        <i class="fas fa-plug text-danger me-3 mt-1"></i>
+                        <div>
+                            <small class="text-muted d-block">Питание</small>
+                            <strong>8-32В</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-md-6">
+                    <div class="d-flex align-items-start">
+                        <i class="fas fa-thermometer-half text-danger me-3 mt-1"></i>
+                        <div>
+                            <small class="text-muted d-block">Температура</small>
+                            <strong>-40...&#43;65°C</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
     <div class="row">
         <div class="col-lg-8">
             
-            <div class="content mb-5">
+            <div class="mb-5">
                 <h1 id="блок-энкодера">Блок энкодера</h1>
 <p><strong>Блок энкодера с CAN интерфейсом</strong> — компактное решение для точного измерения углов поворота и позиционирования в промышленных системах.</p>
 <h2 id="основные-возможности">Основные возможности</h2>
@@ -187,48 +242,88 @@
 <p><strong>Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами.</strong></p>
 
             </div>
-
-            
         </div>
 
         <div class="col-lg-4">
             
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <i class="fas fa-phone text-primary me-2"></i>Получить консультацию
-                    </h5>
-                    <p class="card-text">Свяжитесь с нами для получения подробной информации о продукте и условиях поставки.</p>
-                    <a href="/tm-hugo/contacts/" class="btn btn-primary w-100">
-                        <i class="fas fa-envelope me-2"></i>Связаться с нами
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-body p-4">
+                    <div class="text-center mb-4">
+                        <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <i class="fas fa-headset fa-2x text-danger"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Получить консультацию</h5>
+                        <p class="card-text text-muted small">Свяжитесь с нами для получения подробной информации о продукте и условиях поставки.</p>
+                    </div>
+                    <a href="/tm-hugo/contacts/" class="btn btn-danger w-100 mb-2">
+                        <i class="fas fa-phone me-2"></i>Связаться с нами
+                    </a>
+                    <a href="mailto:info@precisionmachines.pro" class="btn btn-outline-danger w-100">
+                        <i class="fas fa-envelope me-2"></i>Написать Email
                     </a>
                 </div>
             </div>
 
             
+            <div class="card border-0 shadow-sm mb-4 bg-light">
+                <div class="card-body p-4">
+                    <h6 class="fw-bold mb-3">
+                        <i class="fas fa-check-circle me-2 text-success"></i>Преимущества
+                    </h6>
+                    <ul class="list-unstyled mb-0 small">
+                        <li class="mb-2">
+                            <i class="fas fa-award text-warning me-2"></i>Собственное производство
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-tools text-primary me-2"></i>Техническая поддержка
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-shield-alt text-success me-2"></i>Гарантия качества
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-truck text-info me-2"></i>Доставка по России
+                        </li>
+                        <li class="mb-0">
+                            <i class="fas fa-cog text-danger me-2"></i>Индивидуальные решения
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             
             
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <i class="fas fa-boxes me-2"></i>Похожие продукты
-                    </h5>
+            
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h6 class="card-title fw-bold mb-3">
+                        <i class="fas fa-cubes me-2 text-danger"></i>Похожие продукты
+                    </h6>
                     
                     <div class="mb-3 pb-3 border-bottom">
-                        <h6><a href="/tm-hugo/products/bku-ptz/" class="text-decoration-none">БКУ</a></h6>
-                        <small class="text-muted">Блок контроля и управления</small>
+                        <a href="/tm-hugo/products/bku-ptz/" class="text-decoration-none">
+                            <h6 class="mb-1 text-danger">БКУ</h6>
+                            <small class="text-muted">Блок контроля и управления</small>
+                        </a>
                     </div>
                     
                     <div class="mb-3 pb-3 border-bottom">
-                        <h6><a href="/tm-hugo/products/utud-ptz/" class="text-decoration-none">УТУД</a></h6>
-                        <small class="text-muted">Дисплей универсальный транспортный управляющий</small>
+                        <a href="/tm-hugo/products/utud-ptz/" class="text-decoration-none">
+                            <h6 class="mb-1 text-danger">УТУД</h6>
+                            <small class="text-muted">Дисплей универсальный транспортный управляющий</small>
+                        </a>
                     </div>
                     
-                    <div class="mb-3 pb-3 border-bottom">
-                        <h6><a href="/tm-hugo/products/digital-dashboard/" class="text-decoration-none">Цифровая панель приборная</a></h6>
-                        <small class="text-muted">Цифровая комбинация приборов</small>
+                    <div class="mb-3 pb-3 ">
+                        <a href="/tm-hugo/products/digital-dashboard/" class="text-decoration-none">
+                            <h6 class="mb-1 text-danger">Цифровая панель приборная</h6>
+                            <small class="text-muted">Цифровая комбинация приборов</small>
+                        </a>
                     </div>
                     
+                    <a href="/tm-hugo/products/" class="btn btn-sm btn-outline-danger w-100 mt-2">
+                        <i class="fas fa-th me-2"></i>Все продукты
+                    </a>
                 </div>
             </div>
             
@@ -236,20 +331,41 @@
     </div>
 
     
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="imageModalLabel">Блок энкодера</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id="modalImage" src="" alt="" class="img-fluid">
+    <div class="row mt-5 pt-5 border-top">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
+                <div class="card-body p-5 text-center">
+                    <i class="fas fa-file-alt fa-3x mb-4 opacity-75"></i>
+                    <h3 class="fw-bold mb-3">Нужна техническая документация?</h3>
+                    <p class="lead mb-4 opacity-90">
+                        Получите полную техническую документацию, спецификации и руководства по эксплуатации
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        <a href="/tm-hugo/contacts/" class="btn btn-light btn-lg">
+                            <i class="fas fa-download me-2"></i>Запросить документацию
+                        </a>
+                        <a href="/tm-hugo/products/" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-arrow-left me-2"></i>К каталогу продуктов
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center p-4 bg-light">
+                <img id="modalImage" src="" alt="" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
