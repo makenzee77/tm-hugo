@@ -46,36 +46,19 @@ description: "Система автоматизированного 3D ниве�
 калибровки и контроля всех этапов нивелирования. Опционально можно подключить камеру для
 повышения безопасности работы на объекте.
 
-## Фотографии системы
-
-<div class="bg-light p-3 rounded mb-4">
-  <div id="graderCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="5000">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#graderCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
-      <button type="button" data-bs-target="#graderCarousel" data-bs-slide-to="1" aria-label="Слайд 2"></button>
-    </div>
-    <div class="carousel-inner rounded">
-      <div class="carousel-item active">
-        <img src="{{ "img/products/grader_system_1.jpg" | relURL }}" class="d-block w-100 rounded" style="max-height: 500px; object-fit: contain; background: #f8f9fa;" alt="Система нивелирования - общий вид">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#graderCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Предыдущий</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#graderCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Следующий</span>
-    </button>
-  </div>
-</div>
-
 ## Режимы работы
 
 ### 2D Нивелирование
 Система оиентируется на данные с инерциальных модулей управляет наклоном отвала для получения заданного уклона дороги вне зависимости от положения грейдера и поворотного стола.
 
 Оператор выбирает уклон, сторону управления.
+
+**Схема 2D**
+<div class="bg-light p-3 rounded mb-4">
+  <div class="text-center">
+    <img src="/tm-hugo/img/products/2D_scheme.png" class="img-fluid rounded shadow-sm" style="max-height: 700px; object-fit: contain;" alt="Схема 2D нивелирования">
+  </div>
+</div>
 
 **Применение:**
 - Планировка площадок
@@ -87,6 +70,12 @@ description: "Система автоматизированного 3D ниве�
 
 Система использует ГНСС и данные от инерциальных датчиков для точного определения положения машины и координат целевых точек, система сама позиционирует отвал по уровню и углу, выдает оператору подсказки повышая производительность.
 
+**Схема 3D**
+<div class="bg-light p-3 rounded mb-4">
+  <div class="text-center">
+    <img src="/tm-hugo/img/products/3D_scheme.png" class="img-fluid rounded shadow-sm" style="max-height: 700px; object-fit: contain;" alt="Схема 2D нивелирования">
+  </div>
+</div>
 
 **Применение:**
 - Профилирование по сложным 3D проектам
