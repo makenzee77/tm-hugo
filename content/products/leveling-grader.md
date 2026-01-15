@@ -56,7 +56,7 @@ description: "Система автоматизированного 3D ниве�
 **Схема 2D**
 <div class="bg-light p-3 rounded mb-4">
   <div class="text-center">
-    <img src="/tm-hugo/img/products/2D_scheme.png" class="img-fluid rounded shadow-sm" style="max-height: 700px; object-fit: contain;" alt="Схема 2D нивелирования">
+    <img src="/tm-hugo/img/products/scheme_2D.png" class="img-fluid rounded shadow-sm" style="max-height: 900px; object-fit: contain;" alt="Схема 2D нивелирования">
   </div>
 </div>
 
@@ -73,7 +73,7 @@ description: "Система автоматизированного 3D ниве�
 **Схема 3D**
 <div class="bg-light p-3 rounded mb-4">
   <div class="text-center">
-    <img src="/tm-hugo/img/products/3D_scheme.png" class="img-fluid rounded shadow-sm" style="max-height: 700px; object-fit: contain;" alt="Схема 2D нивелирования">
+    <img src="/tm-hugo/img/products/scheme_3D.png" class="img-fluid rounded shadow-sm" style="max-height: 900px; object-fit: contain;" alt="Схема 3D нивелирования">
   </div>
 </div>
 
