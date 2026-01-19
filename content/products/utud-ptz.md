@@ -1,6 +1,6 @@
 ---
-title: "УТУД"
-fullName: "Дисплей универсальный транспортный управляющий"
+title: "Дисплей универсальный транспортный управляющий"
+fullName: "Предназначен для управления строительной и сельскохозяйственной техникой, прецизионного вождения, нивелирования и реализации прочих интеллектуальных функций."
 date: 2024-01-01
 draft: false
 weight: 10
@@ -25,17 +25,22 @@ applications: ["Транспорт", "Сельхозтехника", "Спецт
 
 # Изображения
 images:
-  - "/Дисплей фронт.png"
+  - "/Группа 1.png"
 
 # SEO
 description: "Дисплей универсальный транспортный управляющий УТУД с GPS/ГЛОНАСС навигацией, процессором iMX8M Plus и множественными интерфейсами для транспорта и сельхозтехники."
 ---
 
-## Описание
+## Общее описание
 
-**Дисплей универсальный транспортный управляющий** предназначен для управления строительной и сельскохозяйственной техникой, прецизионного вождения, нивелирования и реализации прочих интеллектуальных функций.
+**Дисплей универсальный транспортный управляющий** предназначен для управления строительной и сельскохозяйственной техникой, прецизионного вождения, нивелирования и интеллектуальных функций.
 
-Дисплей обеспечивает удобный и интуитивно понятный интерфейс, снабжен ярким экраном с широким углом обзора и технологией тач-скрин. Реализована функция автоматической настройки яркости в зависимости от освещения, предусмотрено место для установки фронтальной видеокамеры. УТУД выполнен на базе мощного процессора iMX8M Plus, что обеспечивает высокую производительность и возможность выполнения сложных алгоритмов управления в режиме реального времени.
+**Общие преимущества всех исполнений:**
+- Экран высокой яркости с тач-скрином и автонастройкой
+- Мощный процессор iMX8M Plus 1.6 GHz, 4 GB RAM
+- Множество интерфейсов: 3×CAN, USB, Ethernet, Wi-Fi, 4G, Bluetooth
+- GNSS L1/L2 (опция RTK), 4 видеовхода
+- IP65, -40...+65°C, обновление ПО удалённо
 
 ## Фотографии
 
@@ -44,6 +49,8 @@ description: "Дисплей универсальный транспортный
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#utudCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
       <button type="button" data-bs-target="#utudCarousel" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Слайд 2"></button>
+      <button type="button" data-bs-target="#utudCarousel" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Слайд 3"></button>
+      <button type="button" data-bs-target="#utudCarousel" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Слайд 4"></button>
     </div>
     <div class="carousel-inner rounded">
       <div class="carousel-item active">
@@ -51,6 +58,12 @@ description: "Дисплей универсальный транспортный
               </div>
               <div class="carousel-item">
                 <img src="/tm-hugo/img/products/Дисплей тыл.png" class="d-block w-100 rounded" alt="УТУД 2D - установка">
+              </div>
+              <div class="carousel-item">
+                <img src="/tm-hugo/img/products/grader.jpg" class="d-block w-100 rounded" alt="УТУД 2D - установка">
+              </div>
+              <div class="carousel-item">
+                <img src="/tm-hugo/img/products/tractor.jpg" class="d-block w-100 rounded" alt="УТУД 2D - установка">
               </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#utudCarousel" data-bs-slide="prev">
@@ -65,116 +78,155 @@ description: "Дисплей универсальный транспортный
 </div>
 
 ## Варианты исполнения
-
 Выберите конфигурацию для просмотра технических характеристик:
 
-<ul class="nav nav-pills mb-4 gap-2" id="configTabs" role="tablist">
+
+
+<ul class="nav nav-pills mb-4 gap-2 flex-wrap" id="variantTabs" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="btn btn-danger active" id="2d-tab" data-bs-toggle="pill" data-bs-target="#config-2d" type="button" role="tab" aria-controls="config-2d" aria-selected="true">УТУД 2D</button>
+    <button class="btn btn-outline-danger active" id="grader2d-tab" data-bs-toggle="pill" data-bs-target="#grader2d" type="button" role="tab">2D Грейдер</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="btn btn-danger" id="3d-tab" data-bs-toggle="pill" data-bs-target="#config-3d" type="button" role="tab" aria-controls="config-3d" aria-selected="false">УТУД 3D</button>
+    <button class="btn btn-outline-danger" id="grader3d-tab" data-bs-toggle="pill" data-bs-target="#grader3d" type="button" role="tab">3D Грейдер</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-outline-danger" id="tractor-tab" data-bs-toggle="pill" data-bs-target="#tractor" type="button" role="tab">Трактор</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-outline-danger" id="sprayer-tab" data-bs-toggle="pill" data-bs-target="#sprayer" type="button" role="tab">Опрыскиватель</button>
   </li>
 </ul>
 
+
 <div class="tab-content" id="configTabContent">
-  <!-- УТУД 2D -->
-  <div class="tab-pane fade show active" id="config-2d" role="tabpanel" aria-labelledby="2d-tab">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">УТУД 2D</h5>
-        <p class="card-text">Базовая конфигурация для решения задач навигации, мониторинга и управления транспортом и спецтехникой. Поддержка 2D-навигации с одним GNSS-приемником, контроль параметров работы оборудования, отображение видео с камер и телематические функции.</p>
-        <h6 class="mt-4">Технические характеристики:</h6>
-        <table class="table table-sm table-striped">
-          <tbody>
-            <tr><td><strong>Артикул</strong></td><td>РСДТ.453891.001-2D</td></tr>
-            <tr><td><strong>Напряжение питания</strong></td><td>7–36 В (постоянный ток)</td></tr>
-            <tr><td><strong>Потребляемая мощность</strong></td><td>Не более 15 Вт</td></tr>
-            <tr><td><strong>Процессор</strong></td><td>iMX8M Plus (4×ARM Cortex-A53 + Cortex-M7), 1.6 GHz</td></tr>
-            <tr><td><strong>Оперативная память</strong></td><td>4 GB LPDDR4</td></tr>
-            <tr><td><strong>Встроенная память</strong></td><td>16 GB eMMC</td></tr>
-            <tr><td><strong>Диагональ дисплея</strong></td><td>10,1 дюйма</td></tr>
-            <tr><td><strong>Разрешение экрана</strong></td><td>1920×1080 или 1280×720 (на выбор)</td></tr>
-            <tr><td><strong>Тип сенсора</strong></td><td>Емкостной тач-скрин</td></tr>
-            <tr><td><strong>Геопозиционирование</strong></td><td>GNSS-приемник L1 (GPS, ГЛОНАСС, BeiDou, Galileo)</td></tr>
-            <tr><td><strong>Точность позиционирования</strong></td><td>До 2.5 м (автономный режим), до 0.3 м (SBAS)</td></tr>
-            <tr><td><strong>Интерфейсы</strong></td><td>USB 3.0 (1 шт.), USB 2.0 (2 шт.), 3×CAN 2.0b, Ethernet 10/100 Мбит/с</td></tr>
-            <tr><td><strong>Беспроводные интерфейсы</strong></td><td>Wi-Fi 802.11 b/g/n, Bluetooth 5.2, 4G/3G/2G (опция)</td></tr>
-            <tr><td><strong>Видеовходы</strong></td><td>4 аналоговых видеовхода (CVBS)</td></tr>
-            <tr><td><strong>Дополнительно</strong></td><td>Слот для SD-карты, Часы реального времени (RTC), Датчик освещенности, FM-радио, Аудиовыход (внутренний динамик + внешний выход)</td></tr>
-            <tr><td><strong>Степень защиты</strong></td><td>IP30 (стандарт), IP65 (опция)</td></tr>
-            <tr><td><strong>Рабочая температура</strong></td><td>-40°C до +65°C</td></tr>
-            <tr><td><strong>Температура хранения</strong></td><td>-50°C до +85°C</td></tr>
-            <tr><td><strong>Габариты (Д×Ш×В)</strong></td><td>265×173×52 мм</td></tr>
-            <tr><td><strong>Масса</strong></td><td>Не более 1,5 кг</td></tr>
-          </tbody>
-        </table>
-        <h6 class="mt-4">Функциональные возможности:</h6>
-        <ul>
-          <li>Навигация и позиционирование в режиме реального времени</li>
-          <li>Отображение карт и треков движения</li>
-          <li>Мониторинг параметров техники через CAN</li>
-          <li>Отображение видео с 4 камер одновременно</li>
-          <li>Телематический мониторинг (передача данных на сервер)</li>
-          <li>Автоматическая регистрация событий и маршрутов</li>
-          <li>FM-радио и аудиовоспроизведение</li>
-        </ul>
-        <p class="text-muted mt-3"><strong>Цена:</strong> по запросу</p>
-      </div>
-    </div>
-  </div>
   
-  <!-- УТУД 3D -->
-  <div class="tab-pane fade" id="config-3d" role="tabpanel" aria-labelledby="3d-tab">
+  <!-- 1.2D для Грейдера -->
+  <div class="tab-pane fade show active" id="grader2d" role="tabpanel" aria-labelledby="grader2d-tab">
     <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">УТУД 3D</h5>
-        <p class="card-text">Расширенная конфигурация для систем точного земледелия и 3D-нивелирования. Включает два GNSS-приемника L1/L2 с поддержкой RTK-коррекции, обеспечивая высокоточное позиционирование до ±2 см. Идеально подходит для автоматического управления техникой, профилирования грейдером и прецизионного земледелия.</p>
-        <h6 class="mt-4">Технические характеристики:</h6>
+      <div class="card-body text-dark">
+        <h5 class="card-title fw-bold text-danger mb-3 text-dark">2D Грейдер</h5>
+        <p class="card-text mb-4">Базовая конфигурация для 2D-нивелирования грейдеров. GNSS L1, 2×CAN, видео с камер.</p>
+        <h6 class="mt-3 mb-3">Технические характеристики:</h6>
         <table class="table table-sm table-striped">
           <tbody>
-            <tr><td><strong>Артикул</strong></td><td>РСДТ.453891.001-3D</td></tr>
-            <tr><td><strong>Напряжение питания</strong></td><td>9–36 В (постоянный ток)</td></tr>
-            <tr><td><strong>Потребляемая мощность</strong></td><td>Не более 20 Вт</td></tr>
-            <tr><td><strong>Процессор</strong></td><td>iMX8M Plus (4×ARM Cortex-A53 + Cortex-M7), 1.6 GHz</td></tr>
-            <tr><td><strong>Оперативная память</strong></td><td>4 GB LPDDR4</td></tr>
-            <tr><td><strong>Встроенная память</strong></td><td>16 GB eMMC</td></tr>
-            <tr><td><strong>Диагональ дисплея</strong></td><td>10,1 дюйма</td></tr>
-            <tr><td><strong>Разрешение экрана</strong></td><td>1920×1080 или 1280×720 (на выбор)</td></tr>
-            <tr><td><strong>Тип сенсора</strong></td><td>Емкостной тач-скрин</td></tr>
-            <tr><td><strong>Геопозиционирование</strong></td><td>2× GNSS-приемник L1/L2 (GPS, ГЛОНАСС, BeiDou, Galileo)</td></tr>
-            <tr><td><strong>Точность позиционирования</strong></td><td>±2 см (RTK), ±10 см (PPP)</td></tr>
-            <tr><td><strong>RTK поддержка</strong></td><td>Встроенный RTK-модуль, радиомодем (опция)</td></tr>
-            <tr><td><strong>Частота обновления</strong></td><td>20 Гц</td></tr>
-            <tr><td><strong>Интерфейсы</strong></td><td>USB 3.0 (1 шт.), USB 2.0 (2 шт.), 3×CAN 2.0b, Ethernet 10/100 Мбит/с</td></tr>
-            <tr><td><strong>Беспроводные интерфейсы</strong></td><td>Wi-Fi 802.11 b/g/n, Bluetooth 5.2, 4G/3G/2G</td></tr>
-            <tr><td><strong>Видеовходы</strong></td><td>4 аналоговых видеовхода (CVBS), 1 цифровой CSI</td></tr>
-            <tr><td><strong>Дополнительно</strong></td><td>Слот для SD-карты, Часы реального времени (RTC), Датчик освещенности, Фронтальная камера (опция), FM-радио, Аудиовыход (внутренний динамик + внешний выход)</td></tr>
-            <tr><td><strong>Степень защиты</strong></td><td>IP65</td></tr>
-            <tr><td><strong>Рабочая температура</strong></td><td>-40°C до +65°C</td></tr>
-            <tr><td><strong>Температура хранения</strong></td><td>-50°C до +85°C</td></tr>
-            <tr><td><strong>Габариты (Д×Ш×В)</strong></td><td>265×173×52 мм</td></tr>
-            <tr><td><strong>Масса</strong></td><td>Не более 2 кг</td></tr>
+            <tr><td><strong>Артикул</strong></td><td>РСДТ.453891.001-03</td></tr>
+            <tr><td><strong>GNSS</strong></td><td>L1 (GPS/ГЛОНАСС/BeiDou)</td></tr>
+            <tr><td><strong>CAN</strong></td><td>1 канал</td></tr>
+            <tr><td><strong>Видео</strong></td><td>2 канала CVBS</td></tr>
+            <tr><td><strong>4G модем</strong></td><td>SIM7600 + внешняя SIM</td></tr>
+            <tr><td><strong>Защита</strong></td><td>IP65 (черный разъём)</td></tr>
+            <tr><td><strong>Инерциальный датчик</strong></td><td>Да</td></tr>
           </tbody>
         </table>
-        <h6 class="mt-4">Функциональные возможности:</h6>
-        <ul>
-          <li>Все функции версии 2D, плюс:</li>
-          <li>Высокоточное RTK-позиционирование (±2 см)</li>
-          <li>Автоматическое управление техникой (автопилот)</li>
-          <li>3D-нивелирование для грейдеров и бульдозеров</li>
-          <li>Работа с цифровыми моделями рельефа (DEM/DTM)</li>
-          <li>Параллельное вождение с субсантиметровой точностью</li>
-          <li>Секционное управление (контроль секций опрыскивателя/сеялки)</li>
-          <li>Дифференцированное внесение (VRA)</li>
-          <li>Импорт/экспорт карт заданий и границ полей</li>
-          <li>Интеграция с системами точного земледелия</li>
-        </ul>
-        <p class="text-muted mt-3"><strong>Цена:</strong> по запросу</p>
+        <div class="mt-4 p-3 bg-light rounded">
+          <h6><i class="fas fa-check-circle text-success me-2"></i>Применение:</h6>
+          <ul class="small">
+            <li>2D-нивелирование с постоянным уклоном</li>
+            <li>Планировка площадок</li>
+            <li>Профилирование откосов</li>
+          </ul>
+        </div>
+        <p class="text-muted mt-3 small"><strong>Цена:</strong> по запросу</p>
       </div>
     </div>
   </div>
+
+  <!-- 2.3D для Грейдера -->
+  <div class="tab-pane fade" id="grader3d" role="tabpanel" aria-labelledby="grader3d-tab">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title fw-bold text-danger mb-3 text-dark">3D Грейдер</h5>
+        <p class="card-text mb-4">Расширенная версия для 3D-профилирования. Двойной GNSS L1/L2 + RTK, 3×CAN.</p>
+        <h6 class="mt-3 mb-3">Технические характеристики:</h6>
+        <table class="table table-sm table-striped">
+          <tbody>
+            <tr><td><strong>Артикул</strong></td><td>РСДТ.453891.001-08</td></tr>
+            <tr><td><strong>GNSS</strong></td><td>2×L1/L2 UM982 + RTK модем</td></tr>
+            <tr><td><strong>CAN</strong></td><td>3 канала</td></tr>
+            <tr><td><strong>Видео</strong></td><td>4 канала CVBS</td></tr>
+            <tr><td><strong>Ethernet</strong></td><td>Да</td></tr>
+            <tr><td><strong>Защита</strong></td><td>IP65</td></tr>
+            <tr><td><strong>Точность RTK</strong></td><td>±2 см</td></tr>
+          </tbody>
+        </table>
+        <div class="mt-4 p-3 bg-light rounded">
+          <h6><i class="fas fa-check-circle text-success me-2"></i>Применение:</h6>
+          <ul class="small">
+            <li>3D-профилирование по цифровой модели</li>
+            <li>Строительство дорог по проекту</li>
+            <li>Сложные инженерные поверхности</li>
+          </ul>
+        </div>
+        <p class="text-muted mt-3 small"><strong>Цена:</strong> по запросу</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Трактор -->
+  <div class="tab-pane fade" id="tractor" role="tabpanel" aria-labelledby="tractor-tab">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title fw-bold text-danger mb-3 text-dark">Трактор</h5>
+        <p class="card-text mb-4">Специальное исполнение для тракторов. GNSS L2, инерциальный датчик.</p>
+        <h6 class="mt-3 mb-3">Технические характеристики:</h6>
+        <table class="table table-sm table-striped">
+          <tbody>
+            <tr><td><strong>Артикул</strong></td><td>РСДТ.453891.001-10</td></tr>
+            <tr><td><strong>GNSS</strong></td><td>L2 UBLOX (1 антенна)</td></tr>
+            <tr><td><strong>CAN</strong></td><td>2 канала</td></tr>
+            <tr><td><strong>Защита</strong></td><td>IP65 (черный разъём)</td></tr>
+            <tr><td><strong>Инерциальный датчик</strong></td><td>Да</td></tr>
+            <tr><td><strong>Аудио</strong></td><td>Внутреннее + внешнее</td></tr>
+            <tr><td><strong>FM-радио</strong></td><td>Да</td></tr>
+          </tbody>
+        </table>
+        <div class="mt-4 p-3 bg-light rounded">
+          <h6><i class="fas fa-check-circle text-success me-2"></i>Применение:</h6>
+          <ul class="small">
+            <li>Параллельное вождение тракторов</li>
+            <li>Точное земледелие</li>
+            <li>Контроль секций навесного оборудования</li>
+          </ul>
+        </div>
+        <p class="text-muted mt-3 small"><strong>Цена:</strong> по запросу</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.Опрыскиватель -->
+  <div class="tab-pane fade" id="sprayer" role="tabpanel" aria-labelledby="sprayer-tab">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title fw-bold text-danger mb-3 text-dark">Опрыскиватель</h5>
+        <p class="card-text mb-4">Для точного земледелия и опрыскивателей. Двойной GNSS L2 + RTK, IP65.</p>
+        <h6 class="mt-3 mb-3">Технические характеристики:</h6>
+        <table class="table table-sm table-striped">
+          <tbody>
+            <tr><td><strong>Артикул</strong></td><td>РСДТ.453891.001-ХХ</td></tr>
+            <tr><td><strong>GNSS</strong></td><td>2×L2 GNSS + RTK модем</td></tr>
+            <tr><td><strong>CAN</strong></td><td>3 канала</td></tr>
+            <tr><td><strong>Видео</strong></td><td>4 канала CVBS + CSI камера</td></tr>
+            <tr><td><strong>Защита</strong></td><td>IP65</td></tr>
+            <tr><td><strong>Аудио</strong></td><td>Внутреннее + внешнее</td></tr>
+            <tr><td><strong>Масса</strong></td><td>2 кг</td></tr>
+          </tbody>
+        </table>
+        <div class="mt-4 p-3 bg-light rounded">
+          <h6><i class="fas fa-check-circle text-success me-2"></i>Применение:</h6>
+          <ul class="small">
+            <li>Секционное отключение опрыскивателей</li>
+            <li>Дифференцированное внесение</li>
+            <li>Параллельное вождение ±2 см</li>
+          </ul>
+        </div>
+        <p class="text-muted mt-3 small"><strong>Цена:</strong> по запросу</p>
+      </div>
+    </div>
+  </div>
+
 </div>
+
+
 
 ## Преимущества
 

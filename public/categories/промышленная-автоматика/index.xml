@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Промышленная-Автоматика on АО «Точные машины»</title>
+    <link>http://localhost:1313/tm-hugo/categories/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</link>
+    <description>Recent content in Промышленная-Автоматика on АО «Точные машины»</description>
+    <generator>Hugo</generator>
+    <language>ru-RU</language>
+    <atom:link href="http://localhost:1313/tm-hugo/categories/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ДА-01 Датчик угла поворота</title>
+      <link>http://localhost:1313/tm-hugo/products/rotation-sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/products/rotation-sensor/</guid>
+      <description>&lt;h2 id=&#34;технические-характеристики&#34;&gt;Технические характеристики&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Параметр&lt;/th&gt;&#xA;          &lt;th&gt;Значение&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Диапазон измерения&lt;/td&gt;&#xA;          &lt;td&gt;0-360°&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Точность&lt;/td&gt;&#xA;          &lt;td&gt;±0.5°&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Выходной сигнал&lt;/td&gt;&#xA;          &lt;td&gt;4-20mA / 0-10V / RS485&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Питание&lt;/td&gt;&#xA;          &lt;td&gt;10-30V DC&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Потребление&lt;/td&gt;&#xA;          &lt;td&gt;&amp;lt;50mA&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Защита&lt;/td&gt;&#xA;          &lt;td&gt;IP67&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Рабочая температура&lt;/td&gt;&#xA;          &lt;td&gt;-40&amp;hellip;+85°C&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Корпус&lt;/td&gt;&#xA;          &lt;td&gt;Алюминий анодированный Ø42x45 мм&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Вес&lt;/td&gt;&#xA;          &lt;td&gt;120 г&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;применение&#34;&gt;Применение&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Мониторинг положения вала в приводах&lt;/li&gt;&#xA;&lt;li&gt;Автоматизация станков с ЧПУ&lt;/li&gt;&#xA;&lt;li&gt;Робототехника и манипуляторы&lt;/li&gt;&#xA;&lt;li&gt;Трубопроводная арматура&lt;/li&gt;&#xA;&lt;li&gt;Судовые механизмы&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;преимущества&#34;&gt;Преимущества&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Бесконтактный&lt;/strong&gt; — срок службы &amp;gt;10 лет&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Высокая точность&lt;/strong&gt; ±0.5° в полном диапазоне&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Промышленное исполнение&lt;/strong&gt; IP67, -40&amp;hellip;+85°C&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Универсальные выходы&lt;/strong&gt; — аналоговый + RS485&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Цена: 12 500 ₽&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;Срок поставки: 3-5 дней&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;Гарантия: 2 года&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

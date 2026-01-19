@@ -1,25 +1,22 @@
-<div class="card h-100 shadow-sm border-0">
+<a href="{{ .RelPermalink }}" class="text-decoration-none text-reset">
+  <div class="card h-100 shadow-sm border-0">
     {{ if .Params.images }}
     {{ $firstImage := index .Params.images 0 }}
     <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
-        <img src="{{ printf "img/products/%s" $firstImage | relURL }}" 
-             class="img-fluid" 
-             style="max-height: 200px; max-width: 100%; object-fit: contain;" 
-             alt="{{ .Title }}">
+      <img src="{{ printf "img/products/%s" $firstImage | relURL }}" 
+           class="img-fluid" 
+           style="max-height: 200px; max-width: 100%; object-fit: contain;" 
+           alt="{{ .Title }}">
     </div>
     {{ else }}
     <div class="bg-light d-flex align-items-center justify-content-center" style="height: 220px;">
-        <i class="fas fa-microchip fa-3x text-muted"></i>
+      <i class="fas fa-microchip fa-3x text-muted"></i>
     </div>
     {{ end }}
     
     <div class="card-body d-flex flex-column">
-        <h5 class="card-title fw-bold text-danger">{{ .Title }}</h5>
-        <p class="card-text text-muted small mb-3">{{ .Params.fullName | default .Description }}</p>
-        
-                
-        <a href="{{ .RelPermalink }}" class="btn btn-danger mt-auto">
-            Подробнее <i class="fas fa-arrow-right ms-2"></i>
-        </a>
+      <h5 class="card-title fw-bold text-danger">{{ .Title }}</h5>
+      <p class="card-text text-muted small mb-0">{{ .Params.fullName | default .Description }}</p>
     </div>
-</div>
+  </div>
+</a>
