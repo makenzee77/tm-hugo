@@ -6,9 +6,9 @@ draft: false
 weight: 30
 
 # СКРЫТЬ ИЗ КАТАЛОГА — только на странице решений
-#build:
-#  list: never
-#  render: always
+build:
+  list: never
+  render: always
 
 # Технические характеристики
 partNumber: "ДСМВ.421413.008"

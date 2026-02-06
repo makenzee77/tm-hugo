@@ -10,89 +10,71 @@
     <div class="row g-4">
         <!-- Карточка 1: Автовождение -->
         <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
-                    <img src="{{ "img/products/k6.jpg" | relURL }}" 
-                         class="img-fluid" 
-                         style="max-height: 200px; max-width: 100%; object-fit: contain;" 
-                         alt="Автовождение">
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <div class="mb-3">
-                        <span class="badge bg-success bg-opacity-10 text-success border border-success">
-                            <i class="fas fa-tractor me-1"></i>Сельское хозяйство
-                        </span>
+            <a href="{{ "products/autosteer-tractor/" | relURL }}" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0" style="transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 0.5rem 1rem rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 0.125rem 0.25rem rgba(0,0,0,0.075)';">
+                    <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
+                        <img src="{{ "img/products/k6.jpg" | relURL }}" 
+                             class="img-fluid" 
+                             style="max-height: 200px; max-width: 100%; object-fit: contain;" 
+                             alt="Автовождение">
                     </div>
-                    <h5 class="card-title fw-bold text-danger">Автовождение для трактора</h5>
-                    <p class="card-text text-muted mb-3">Система автоматического управления для тракторов с точностью позиционирования 2.5 см по технологии RTK.</p>
-                    <ul class="list-unstyled small mb-3">
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Точность RTK ±2.5 см</li>
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Параллельное вождение</li>
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Автопилот с электроприводом</li>
-                    </ul>
-                    <a href="{{ "products/autosteer-tractor/" | relURL }}" class="btn btn-danger mt-auto">
-                        Подробнее <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-danger">Автовождение для трактора(ред.)</h5>
+                        <p class="card-text text-muted mb-3">Система автоматического управления для тракторов с точностью позиционирования 2.5 см по технологии RTK.</p>
+                        <ul class="list-unstyled small mb-3">
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Точность RTK ±2.5 см</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Параллельное вождение</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Автопилот с электроприводом</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
 
         <!-- Карточка 2: Грейдер -->
         <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
-                    <img src="{{ "img/products/грейдер.jpg" | relURL }}" 
-                         class="img-fluid" 
-                         style="max-height: 200px; max-width: 100%; object-fit: contain;" 
-                         alt="Грейдер">
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <div class="mb-3">
-                        <span class="badge bg-warning bg-opacity-10 text-warning border border-warning">
-                            <i class="fas fa-road me-1"></i>Дорожное строительство
-                        </span>
+            <a href="{{ "products/leveling-grader/" | relURL }}" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0" style="transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 0.5rem 1rem rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 0.125rem 0.25rem rgba(0,0,0,0.075)';">
+                    <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
+                        <img src="{{ "img/products/грейдер.jpg" | relURL }}" 
+                             class="img-fluid" 
+                             style="max-height: 200px; max-width: 100%; object-fit: contain;" 
+                             alt="Грейдер">
                     </div>
-                    <h5 class="card-title fw-bold text-danger">Система автоматического нивелирования для грейдера</h5>
-                    <p class="card-text text-muted mb-3">Система 2D/3D нивелирования для автогрейдеров с поддержкой протокола CAN J1939.</p>
-                    <ul class="list-unstyled small mb-3">
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>2D/3D нивелирование</li>
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Протокол CAN J1939</li>
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Работа по проекту</li>
-                    </ul>
-                    <a href="{{ "products/leveling-grader/" | relURL }}" class="btn btn-danger mt-auto">
-                        Подробнее <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-danger">Система автоматического нивелирования для грейдера</h5>
+                        <p class="card-text text-muted mb-3">Система 2D/3D нивелирования для автогрейдеров с поддержкой протокола CAN J1939.</p>
+                        <ul class="list-unstyled small mb-3">
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>2D/3D нивелирование</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Протокол CAN J1939</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Работа по проекту</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
 
         <!-- Карточка 3: Опрыскиватель -->
         <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
-                    <img src="{{ "img/products/sprayer.jpg" | relURL }}" 
-                         class="img-fluid" 
-                         style="max-height: 200px; max-width: 100%; object-fit: contain;" 
-                         alt="Опрыскиватель">
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <div class="mb-3">
-                        <span class="badge bg-success bg-opacity-10 text-success border border-success">
-                            <i class="fas fa-seedling me-1"></i>Точное земледелие
-                        </span>
+            <a href="{{ "products/sprayer-automation/" | relURL }}" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0" style="transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 0.5rem 1rem rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 0.125rem 0.25rem rgba(0,0,0,0.075)';">
+                    <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
+                        <img src="{{ "img/products/sprayer.jpg" | relURL }}" 
+                             class="img-fluid" 
+                             style="max-height: 200px; max-width: 100%; object-fit: contain;" 
+                             alt="Опрыскиватель">
                     </div>
-                    <h5 class="card-title fw-bold text-danger">Система автоматизации опрыскивателя</h5>
-                    <p class="card-text text-muted mb-3">Автоматический контроль секций и дифференцированное внесение препаратов.</p>
-                    <ul class="list-unstyled small mb-3">
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Секционное управление</li>
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Контроль норм внесения</li>
-                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Карты покрытия</li>
-                    </ul>
-                    <a href="{{ "products/sprayer-automation/" | relURL }}" class="btn btn-danger mt-auto">
-                        Подробнее <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-danger">Система автоматизации опрыскивателя(ред.)</h5>
+                        <p class="card-text text-muted mb-3">Автоматический контроль секций и дифференцированное внесение препаратов.</p>
+                        <ul class="list-unstyled small mb-3">
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Секционное управление</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Контроль норм внесения</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Карты покрытия</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 

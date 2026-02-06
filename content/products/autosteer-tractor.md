@@ -5,6 +5,11 @@ date: 2024-01-01
 draft: false
 weight: 60
 
+# СКРЫТЬ ИЗ КАТАЛОГА — только на странице решений
+build:
+  list: never
+  render: always
+
 # Технические характеристики
 partNumber: "AUTOSTEER-001"
 accuracy: "±2.5 см (RTK), ±10 см (PPP)"

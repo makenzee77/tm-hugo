@@ -4,6 +4,424 @@ description: "Свяжитесь с нами для получения конс�
 draft: false
 ---
 
+<div class="container py-5">
+    <!-- Основные контакты -->
+    <div class="row mb-5">
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+                    <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                        <i class="fas fa-phone fa-2x text-danger"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Телефон</h5>
+                    <a href="tel:+79326177622" class="text-decoration-none text-dark">
+                        <p class="mb-2 fs-5 fw-bold">+7 (932) 617-76-22</p>
+                    </a>
+                    <p class="text-muted small mb-0">Пн-Пт 9:00-18:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+                    <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                        <i class="fas fa-envelope fa-2x text-danger"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Email</h5>
+                    <a href="mailto:info@precisionmachines.pro" class="text-decoration-none">
+                        <p class="mb-2 text-danger">info@precisionmachines.pro</p>
+                    </a>
+                    <p class="text-muted small mb-0">Ответим в течение дня</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+                    <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                        <i class="fas fa-map-marker-alt fa-2x text-danger"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Адрес</h5>
+                    <p class="mb-2">г. Екатеринбург</p>
+                    <p class="text-muted small mb-0">ул. Малышева, 122, литер К</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Отделы -->
+    <div class="mb-5">
+        <h2 class="fw-bold mb-4 text-center">Отделы компании</h2>
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card border-danger border-start border-4 h-100">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-shopping-cart fa-2x text-danger me-3"></i>
+                            <div>
+                                <h5 class="fw-bold mb-2">Отдел продаж</h5>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-2">
+                                <i class="fas fa-phone text-danger me-2"></i>
+                                <a href="tel:+79326177622" class="text-decoration-none text-dark">+7 (932) 617-76-22</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-envelope text-danger me-2"></i>
+                                <a href="mailto:info@precisionmachines.pro" class="text-decoration-none text-dark">info@precisionmachines.pro</a>
+                            </li>
+                            <li class="mb-0">
+                                <i class="fas fa-clock text-danger me-2"></i>
+                                Пн-Пт 9:00-18:00 (МСК+2)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-danger border-start border-4 h-100">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-headset fa-2x text-danger me-3"></i>
+                            <div>
+                                <h5 class="fw-bold mb-2">Техническая поддержка</h5>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-2">
+                                <i class="fas fa-phone text-danger me-2"></i>
+                                <a href="tel:+79326177622" class="text-decoration-none text-dark">+7 (932) 617-76-22</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-envelope text-danger me-2"></i>
+                                <a href="mailto:support@precisionmachines.pro" class="text-decoration-none text-dark">support@precisionmachines.pro</a>
+                            </li>
+                            <li class="mb-0">
+                                <i class="fas fa-clock text-danger me-2"></i>
+                                Пн-Пт 8:00-20:00, Сб 10:00-16:00
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-danger border-start border-4 h-100">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-tools fa-2x text-danger me-3"></i>
+                            <div>
+                                <h5 class="fw-bold mb-2">Сервисный центр</h5>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-2">
+                                <i class="fas fa-phone text-danger me-2"></i>
+                                <a href="tel:+79326177622" class="text-decoration-none text-dark">+7 (932) 617-76-22</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-envelope text-danger me-2"></i>
+                                <a href="mailto:service@precisionmachines.pro" class="text-decoration-none text-dark">service@precisionmachines.pro</a>
+                            </li>
+                            <li class="mb-0">
+                                <i class="fas fa-clock text-danger me-2"></i>
+                                Пн-Пт 9:00-17:00 (МСК+2)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Email по направлениям -->
+    <div class="mb-5">
+        <h2 class="fw-bold mb-4 text-center">Специализированные контакты</h2>
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-industry fa-lg text-danger me-3"></i>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Промышленное оборудование</h6>
+                                <small>
+                                    <a href="mailto:industrial@precisionmachines.pro" class="text-decoration-none">industrial@precisionmachines.pro</a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-tractor fa-lg text-danger me-3"></i>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Сельхозтехника</h6>
+                                <small>
+                                    <a href="mailto:agro@precisionmachines.pro" class="text-decoration-none">agro@precisionmachines.pro</a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-cogs fa-lg text-danger me-3"></i>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Системы управления</h6>
+                                <small>
+                                    <a href="mailto:control@precisionmachines.pro" class="text-decoration-none">control@precisionmachines.pro</a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-handshake fa-lg text-danger me-3"></i>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Партнерство</h6>
+                                <small>
+                                    <a href="mailto:partners@precisionmachines.pro" class="text-decoration-none">partners@precisionmachines.pro</a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Режим работы -->
+    <div class="row mb-5">
+        <div class="col-lg-6 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-4">
+                        <i class="fas fa-clock text-danger me-2"></i>Режим работы офиса
+                    </h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="d-flex justify-content-between mb-2">
+                            <span>Понедельник - Пятница</span>
+                            <span class="fw-bold">8:00 - 17:00</span>
+                        </li>
+                        <li class="d-flex justify-content-between mb-2">
+                            <span>Обеденный перерыв</span>
+                            <span class="fw-bold">12:00 - 13:00</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>Суббота, Воскресенье</span>
+                            <span class="text-muted">Выходной</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-4">
+                        <i class="fas fa-headset text-danger me-2"></i>Техподдержка
+                    </h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="d-flex justify-content-between mb-2">
+                            <span>Понедельник - Пятница</span>
+                            <span class="fw-bold">8:00 - 20:00</span>
+                        </li>
+                        <li class="d-flex justify-content-between mb-2">
+                            <span>Суббота</span>
+                            <span class="fw-bold">10:00 - 16:00</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>Воскресенье</span>
+                            <span class="text-muted">Выходной</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Юридическая информация -->
+    <div class="mb-5">
+        <h2 class="fw-bold mb-4 text-center">Реквизиты компании</h2>
+        <div class="card border-0 shadow-sm bg-light">
+            <div class="card-body p-4">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <small class="text-muted d-block mb-1">Полное наименование</small>
+                            <strong>АО «Точные машины»</strong>
+                        </div>
+                        <div class="mb-3">
+                            <small class="text-muted d-block mb-1">ИНН</small>
+                            <strong>6670518046</strong>
+                        </div>
+                        <div class="mb-3">
+                            <small class="text-muted d-block mb-1">КПП</small>
+                            <strong>667001001</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <small class="text-muted d-block mb-1">ОГРН</small>
+                            <strong>1236600048937</strong>
+                        </div>
+                        <div class="mb-3">
+                            <small class="text-muted d-block mb-1">Юридический адрес</small>
+                            <strong>620078, Свердловская область, г. Екатеринбург, ул. Малышева, 122, литер К</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Доставка -->
+    <div class="mb-5">
+        <h2 class="fw-bold mb-4 text-center">Доставка и логистика</h2>
+        <div class="row g-3">
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-0 shadow-sm text-center h-100">
+                    <div class="card-body p-4">
+                        <i class="fas fa-truck fa-2x text-danger mb-3"></i>
+                        <h6 class="fw-bold">Собственная доставка</h6>
+                        <small class="text-muted">Екатеринбург и область</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-0 shadow-sm text-center h-100">
+                    <div class="card-body p-4">
+                        <i class="fas fa-map-marked-alt fa-2x text-danger mb-3"></i>
+                        <h6 class="fw-bold">По всей России</h6>
+                        <small class="text-muted">Транспортные компании</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-0 shadow-sm text-center h-100">
+                    <div class="card-body p-4">
+                        <i class="fas fa-warehouse fa-2x text-danger mb-3"></i>
+                        <h6 class="fw-bold">Самовывоз</h6>
+                        <small class="text-muted">Со склада в Екатеринбурге</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-0 shadow-sm text-center h-100">
+                    <div class="card-body p-4">
+                        <i class="fas fa-shipping-fast fa-2x text-danger mb-3"></i>
+                        <h6 class="fw-bold">Экспресс-доставка</h6>
+                        <small class="text-muted">Для срочных заказов</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-info mt-3 mb-0">
+            <i class="fas fa-gift me-2"></i>
+            <strong>Бесплатная доставка</strong> при заказе от 100 000 рублей
+        </div>
+    </div>
+    <!-- Техподдержка -->
+    <div class="mb-5">
+        <h2 class="fw-bold mb-4 text-center">Техническая поддержка</h2>
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="fw-bold mb-3">Виды поддержки</h6>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Консультации по выбору оборудования</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Техническая документация</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Обучение персонала</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Удаленная диагностика</li>
+                            <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Гарантийное обслуживание</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="fw-bold mb-3">Гарантия</h6>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><i class="fas fa-shield-alt text-danger me-2"></i><strong>24 месяца</strong> гарантийный срок</li>
+                            <li class="mb-2"><i class="fas fa-calendar-check text-danger me-2"></i><strong>10+ лет</strong> средний срок службы</li>
+                            <li class="mb-0"><i class="fas fa-wrench text-danger me-2"></i><strong>Ежегодное</strong> регламентное ТО</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Форма обратной связи -->
+    <div class="row mb-5">
+        <div class="col-lg-8 mx-auto">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-4 text-center">Форма обратной связи</h5>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Имя *</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">E-mail *</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="phone" class="form-label">Телефон</label>
+                                <input type="tel" class="form-control" id="phone">
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Тема обращения</label>
+                                <select class="form-select" id="subject">
+                                    <option value="">Выберите тему</option>
+                                    <option value="sales">Коммерческие вопросы</option>
+                                    <option value="support">Техническая поддержка</option>
+                                    <option value="service">Сервисное обслуживание</option>
+                                    <option value="partnership">Партнерство</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Сообщение *</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-danger w-100">
+                                    <i class="fas fa-paper-plane me-2"></i>Отправить сообщение
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Призыв к действию -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
+                <div class="card-body p-5 text-center">
+                    <i class="fas fa-comments fa-3x mb-4 opacity-75"></i>
+                    <h3 class="fw-bold mb-3">Мы всегда готовы помочь!</h3>
+                    <p class="lead mb-4 opacity-90">
+                        Наша команда специалистов готова найти оптимальное решение для ваших задач
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        <a href="tel:+79326177622" class="btn btn-light btn-lg">
+                            <i class="fas fa-phone me-2"></i>+7 (932) 617-76-22
+                        </a>
+                        <a href="mailto:info@precisionmachines.pro" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-envelope me-2"></i>Написать Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--
+---
+title: "Контакты"
+description: "Свяжитесь с нами для получения консультаций, технической поддержки или размещения заказов."
+draft: false
+---
+
 ## 🏢 Основная информация
 
 **АО «Точные машины»**
@@ -186,3 +604,4 @@ draft: false
         </a>
     </div>
 </div>
+-->

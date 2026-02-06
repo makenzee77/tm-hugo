@@ -5,6 +5,11 @@ date: 2024-01-01
 draft: false
 weight: 80
 
+# СКРЫТЬ ИЗ КАТАЛОГА — только на странице решений
+build:
+  list: never
+  render: always
+
 # Технические характеристики
 partNumber: "SPRAYER-AUTO-001"
 accuracy: "±5 см (GPS), ±2.5 см (RTK)"
