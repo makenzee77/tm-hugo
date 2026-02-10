@@ -2,7 +2,9 @@
   <h1 class="display-4 fw-bold mb-3">Контакты</h1>
   <p class="lead text-muted">Свяжитесь с нами для получения консультаций, технической поддержки или размещения заказов</p>
 </div>
-    
+
+---
+
 ## Отделы и службы
 
 <div class="row g-4 mb-5">
@@ -394,21 +396,6 @@
 
 ---
 
-<div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
-  <div class="card-body p-5 text-center">
-    <i class="fas fa-hands-helping fa-3x mb-4 opacity-75"></i>
-    <h3 class="fw-bold mb-3">Мы всегда готовы помочь!</h3>
-    <p class="lead mb-4 opacity-90">Наша команда специалистов готова найти оптимальное решение для ваших задач</p>
-    <div class="d-flex gap-3 justify-content-center flex-wrap">
-      <a href="tel:+79326177622" class="btn btn-light btn-lg">
-        <i class="fas fa-phone me-2"></i>+7 (932) 617-76-22
-      </a>
-      <a href="mailto:info@precisionmachines.pro" class="btn btn-outline-light btn-lg">
-        <i class="fas fa-envelope me-2"></i>info@precisionmachines.pro
-      </a>
-    </div>
-  </div>
-</div>
 
 
 

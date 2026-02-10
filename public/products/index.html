@@ -126,19 +126,6 @@
                     </div>
                 </div>
             </div>
-
-            
-            <div class="card shadow-sm border-0">
-                <div class="card-body p-4 bg-light">
-                    <h6 class="fw-bold mb-3">
-                        <i class="fas fa-question-circle me-2 text-danger"></i>Нужна помощь?
-                    </h6>
-                    <p class="small text-muted mb-3">Наши специалисты помогут подобрать оптимальное решение для ваших задач.</p>
-                    <a href="/tm-hugo/contacts/" class="btn btn-sm btn-danger w-100">
-                        <i class="fas fa-phone me-2"></i>Связаться
-                    </a>
-                </div>
-            </div>
         </div>
 
         
@@ -555,7 +542,6 @@
         </div>
     </div>
 </div>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const filterBtns = document.querySelectorAll('.filter-btn');
@@ -563,7 +549,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const noProductsMsg = document.getElementById('no-products');
     const productCount = document.getElementById('product-count');
     const productsGrid = document.getElementById('products-grid');
-
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             const category = this.dataset.category;

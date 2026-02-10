@@ -29,54 +29,100 @@ images:
 description: "Селектор АКПП для коробок Allison с ресурсом 1 млн циклов и CAN интерфейсом для автобусов, грузовиков и спецтехники."
 ---
 
-# Селектор АКПП
+## Описание
 
-**Селектор автоматической коробки передач** — надежное устройство для переключения передач в коробках Allison с высоким ресурсом работы.
+**Селектор АКПП** предназначен для обеспечения управления контроллером автоматической коробки передач
+возможна адаптация к используемым у потребителя, например фирмы Allison или контроллера АКПП собственного
+производства.
 
-## Основные возможности
+Габариты селектора АКПП позволяют вписывать его в существующие дизайн решения с минимальной доработкой
+последних, а в ряде случаев и без. 
 
-- **Совместимость** с коробками **Allison**
-- Высокий ресурс: **1 млн циклов переключения**
-- **CAN интерфейс** для интеграции в системы управления
-- Промышленная защита **IP54**
-- Работа в температурном диапазоне **-40...+65°C**
+## Фотографии
 
-## Технические характеристики
+<div class="bg-light p-3 rounded mb-4">
+  <div id="bkuCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#bkuCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#bkuCarousel" data-bs-slide-to="1"></button>
+    </div>
+    <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+        <img src="/tm-hugo/img/products/АКПП.png" class="d-block w-100" alt="БКУ фронт">
+      </div>
+      <div class="carousel-item">
+        <img src="/tm-hugo/img/products/selector_akpp_2.jpg" class="d-block w-100" alt="БКУ бок">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#bkuCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#bkuCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
 
-| Параметр | Значение |
-|----------|----------|
-| **Совместимость** | Коробки Allison |
-| **Ресурс** | 1 млн циклов переключения |
-| **Интерфейс** | CAN |
-| **Защита** | IP54 |
-| **Рабочая температура** | -40...+65°C |
+## Характеристики
 
-## Области применения
-
-- **Автобусы** — городские и междугородние автобусы с АКПП Allison
-- **Грузовики** — коммерческие грузовые автомобили
-- **Спецтехника** — строительная и дорожная техника
+<div class="table-responsive">
+  <table class="table table-sm table-striped">
+    <tbody>
+      <tr><td><strong>Напряжение питания</strong></td><td>От 8 до 32 В</td></tr>
+      <tr><td><strong>Потребляемая мощность</strong></td><td>Не более 2 Вт </td></tr>
+      <tr><td><strong>Интерфейс</strong></td><td>CAN</td></tr>
+      <tr><td><strong>Степень защиты</strong></td><td>IP54</td></tr>
+      <tr><td><strong>Температура окружающий среды рабочая</strong></td><td>-40 оС до +65 оС </td></tr>
+      <tr><td><strong>Масса</strong></td><td>Не более 0,3 кг</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ## Преимущества
 
-- ✅ **Высокий ресурс** — 1 миллион циклов переключения
-- ✅ **Надежность** — специально разработан для коробок Allison
-- ✅ **CAN интерфейс** — интеграция в современные системы управления
-- ✅ **Промышленное исполнение** — защита IP54 для тяжелых условий эксплуатации
+<div class="row g-4 mb-4">
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h6 class="fw-bold text-danger mb-2">Встроенный индикатор</h6>
+        <p class="small">Наличие встроенного индикатора на который выводится информация о текущих режимах работы и, в случае возникновения при работе АКПП аварийных ситуаций, соответствующих сообщений. Это позволяет использовать данное устройство автономно с контроллером АКПП без подключения в внешней СУ.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h6 class="fw-bold text-danger mb-2">Высокий ресурс</h6>
+        <p class="small">Органы управления имеют ресурс нажатия более 1 000 000.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h6 class="fw-bold text-danger mb-2">Защита IP54</h6>
+        <p class="small">Степень защиты IP54 позволяет использовать его в открытом варианте.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h6 class="fw-bold text-danger mb-2">Широкий диапазон питания</h6>
+        <p class="small">Питание от бортовой сети с широким диапазоном напряжения.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Функциональность
+## Видеопрезентация
 
-Селектор обеспечивает:
-- Точное переключение передач
-- Передачу команд по CAN интерфейсу
-- Индикацию текущего положения
-- Защиту от случайного переключения
-- Эргономичное управление для водителя
-
-## Надежность
-
-Селектор рассчитан на интенсивную эксплуатацию в коммерческом транспорте и спецтехнике, обеспечивая стабильную работу в течение всего срока службы транспортного средства.
+<div class="ratio ratio-16x9 mb-4">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="УТУД - Видеопрезентация" allowfullscreen></iframe>
+</div>
 
 ---
 
-**Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами.**
+## Документация
+- [Тех. паспорт (PDF)](/docs/BKU-datasheet.pdf)
+- [Руководство (PDF)](/docs/BKU-manual.pdf)

@@ -3,6 +3,8 @@
   <p class="lead text-muted">АО «Точные машины» — разработка и производство промышленной электроники для сельхоз-, строительной и специальной техники</p>
 </div>
 
+---
+
 ## Наша миссия
 
 <div class="card border-0 shadow-sm mb-5">
@@ -354,19 +356,6 @@
 </div>
 
 ---
-
-<div class="card border-0 shadow-sm text-white mt-5" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
-  <div class="card-body p-5 text-center">
-    <i class="fas fa-envelope fa-3x mb-4 opacity-75"></i>
-    <h3 class="fw-bold mb-3">Свяжитесь с нами</h3>
-    <p class="lead mb-4 opacity-90">Узнайте больше о наших возможностях и обсудите варианты сотрудничества</p>
-    <a href="/contacts/" class="btn btn-light btn-lg">
-      <i class="fas fa-phone me-2"></i>Связаться с нами
-    </a>
-  </div>
-</div>
-
-
 
 <!--
 ---

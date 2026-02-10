@@ -28,48 +28,92 @@ images:
 description: "Блок энкодера с CAN интерфейсом для систем позиционирования и измерения углов поворота."
 ---
 
-# Блок энкодера
+## Описание
 
-**Блок энкодера с CAN интерфейсом** — компактное решение для точного измерения углов поворота и позиционирования в промышленных системах.
+**Блок энкодера** предназначен для формирования управляющих сигналов в системах управления и
+отображения информации при помощи поворота и нажатия рукоятки.
 
-## Основные возможности
+Имеет надежную, имеющую неограниченный ресурс, магнитную фиксацию положения
+рукоятки.
 
-- **CAN интерфейс** для интеграции в промышленные сети
-- Широкий диапазон питания **8-32В**
-- **Компактные размеры** 46×150×20 мм
-- Малый вес всего **0.3 кг**
-- Работа в широком температурном диапазоне **-40...+65°C**
+Имеет минимальные габариты, что делает возможным его установку в широкий спектр уже
+готовых конструкторских решений. 
 
-## Технические характеристики
+## Фотографии
 
-| Параметр | Значение |
-|----------|----------|
-| **Интерфейс** | CAN |
-| **Питание** | 8-32В |
-| **Рабочая температура** | -40...+65°C |
-| **Габариты** | 46×150×20 мм |
-| **Вес** | 0.3 кг |
+<div class="bg-light p-3 rounded mb-4">
+  <div id="bkuCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#bkuCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#bkuCarousel" data-bs-slide-to="1"></button>
+    </div>
+    <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+        <img src="/tm-hugo/img/products/Энкодер2.png" class="d-block w-100" alt="БКУ фронт">
+      </div>
+      <div class="carousel-item">
+        <img src="/tm-hugo/img/products/Энкодер.png" class="d-block w-100" alt="БКУ бок">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#bkuCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#bkuCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+## Характеристики
+
+<div class="table-responsive">
+  <table class="table table-sm table-striped">
+    <tbody>
+      <tr><td><strong>Напряжение питания</strong></td><td>От 8 до 32 В</td></tr>
+      <tr><td><strong>Потребляемая мощность</strong></td><td>Не более 2 Вт </td></tr>
+      <tr><td><strong>Интерфейс передачи данных</strong></td><td>CAN</td></tr>
+      <tr><td><strong>Температура окружающий среды рабочая</strong></td><td>-40 оС до +65 оС 
+</td></tr>
+      <tr><td><strong>Масса</strong></td><td>Не более 0,3 кг</td></tr>
+    </tbody>
+  </table>
+</div>
+
+## Преимущества
+
+<div class="row g-4 mb-4">
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h6 class="fw-bold text-danger mb-2">Устойчивость к вибрациям</h6>
+        <p class="small">Возможность эксплуатации в условиях значительных вибраций без выдачи ложных сигналов.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h6 class="fw-bold text-danger mb-2">Широкий диапазон питания</h6>
+        <p class="small">Питание от бортовой сети с широким диапазоном напряжения.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Области применения
 
 - **Системы позиционирования** — точное определение положения механизмов
 - **Измерение углов поворота** — контроль поворотных устройств и механизмов
 
-## Преимущества
 
-- ✅ **Компактность** — минимальные габариты и вес
-- ✅ **Надежный интерфейс** — CAN для промышленных применений
-- ✅ **Широкий диапазон питания** — работа от 8 до 32В
-- ✅ **Температурная стойкость** — работа в экстремальных условиях
+## Видеопрезентация
 
-## Функциональность
-
-Блок энкодера обеспечивает:
-- Высокоточное измерение углов поворота
-- Передачу данных по CAN интерфейсу
-- Интеграцию в системы автоматического управления
-- Мониторинг положения исполнительных механизмов
+<div class="ratio ratio-16x9 mb-4">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="УТУД - Видеопрезентация" allowfullscreen></iframe>
+</div>
 
 ---
 
-**Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами.**
+## Документация
+- [Тех. паспорт (PDF)](/docs/BKU-datasheet.pdf)
+- [Руководство (PDF)](/docs/BKU-manual.pdf)
