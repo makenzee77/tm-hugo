@@ -6,18 +6,6 @@ date: 2024-01-14
 draft: false
 weight: 140
 
-# Технические характеристики
-power: "9-36В"
-nominalCurrent: "6А"
-maxCurrent: "25А"
-nominalTorque: "4.5 Н·м"
-maxTorque: "15 Н·м"
-maxSpeed: "100 об/мин"
-interface: "CAN"
-protection: "IP65"
-climate: "ХЛ 2.1"
-dimensions: "213×175×113 мм"
-prodweight: "7 кг"
 
 # Категории и теги
 categories: ["controllers"]

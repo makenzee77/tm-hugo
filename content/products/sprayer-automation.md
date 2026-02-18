@@ -11,7 +11,7 @@ build:
   render: always
 
 # Технические характеристики
-partNumber: "SPRAYER-AUTO-001"
+partNumber: 
 accuracy: "±5 см (GPS), ±2.5 см (RTK)"
 sections: "До 48 секций/форсунок"
 response_time: "0.2 сек"
