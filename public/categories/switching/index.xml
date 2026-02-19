@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tm-hugo/categories/switching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Блок контроля и управления</title>
-      <link>http://localhost:1313/tm-hugo/products/bku-ptz/</link>
+      <link>http://localhost:1313/tm-hugo/products/bku/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/products/bku-ptz/</guid>
+      <guid>http://localhost:1313/tm-hugo/products/bku/</guid>
       <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Блок контроля и управления&lt;/strong&gt; предназначен для применения в системах управления автотракторной техникой в качестве устройства сбора информации от датчиков и выдачи управляющих сигналов различного назначения.&lt;/p&gt;&#xA;&lt;p&gt;Он имеет как цифровые каналы связи с внешними объектами, так и возможность подключения широкого спектра аналоговых датчиков, что упрощает его интеграцию в уже существующие решения, значительно расширяя их функциональные возможности при минимальных затратах.&lt;/p&gt;&#xA;&lt;p&gt;Также имеет прочный металлический корпус, компактную конструкцию и степень защиты IP54 что позволяет интегрировать в существующие проекты без значительных изменений их дизайна.&lt;/p&gt;</description>
     </item>
     <item>

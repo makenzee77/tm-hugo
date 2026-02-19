@@ -96,10 +96,6 @@
                     <h6 class="product-subtitle mb-3 text-muted">Цифровая панель приборная</h6>
                     
                     
-                    <div class="mb-2">
-                        <small class="text-muted">Артикул: DDP-001</small>
-                    </div>
-                    
 
                     
                     <div class="applications-list mb-3">
@@ -289,5 +285,29 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const el = document.getElementById('utudCarousel');
+    if (!el || typeof bootstrap === 'undefined') return;
+
+    const KEY = 'utudCarouselIndex';
+
+    const carousel = bootstrap.Carousel.getOrCreateInstance(el, {
+        interval: 5000,
+        ride: true
+    });
+
+    const saved = Number(localStorage.getItem(KEY));
+    if (Number.isInteger(saved) && saved >= 0) {
+        carousel.to(saved);
+    }
+
+    el.addEventListener('slid.bs.carousel', (e) => {
+        localStorage.setItem(KEY, e.to);
+    });
+    });
+    </script>
+
 </body>
 </html>
