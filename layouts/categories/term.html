@@ -98,7 +98,7 @@
                     {{ else if eq .Page.Title "displays" }}Дисплеи
                     {{ else if eq .Page.Title "switching" }}Коммутация
                     {{ else if eq .Page.Title "actuators" }}Исполнительные устройства
-                    {{ else if eq .Title "kits" }}Готовые наборы
+                    {{ else if eq .Page.Title "kits" }}Готовые наборы
                     {{ else }}{{ .Page.Title | title }}{{ end }}
                     ({{ len .Pages }})
                 </a>

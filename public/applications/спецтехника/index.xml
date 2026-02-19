@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tm-hugo/applications/%D1%81%D0%BF%D0%B5%D1%86%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Датчик давления и температуры</title>
+      <link>http://localhost:1313/tm-hugo/products/pressure-sensor/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/products/pressure-sensor/</guid>
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Датчик давления и температуры&lt;/strong&gt; предназначен для измерения и преобразования избыточного&#xA;давления газообразных и жидких рабочих сред, а также температуры, в цифровой сигнал&#xA;интерфейса CAN.&lt;/p&gt;&#xA;&lt;p&gt;Датчик давления и температуры используется в системах управления и автоматики&#xA;автотракторной, дорожно-строительной и другой специализированной техники, автомобильного,&#xA;железнодорожного транспорта, нефтегазовой отрасли и других отраслях промышленности.&lt;/p&gt;&#xA;&lt;h2 id=&#34;фотографии&#34;&gt;Фотографии&lt;/h2&gt;&#xA;&lt;div class=&#34;bg-light p-3 rounded mb-4&#34;&gt;&#xD;&#xA;  &lt;div id=&#34;utudCarousel&#34; class=&#34;carousel slide carousel-dark&#34; data-bs-ride=&#34;carousel&#34; data-bs-interval=&#34;5000&#34; style=&#34;cursor: pointer;&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;carousel-inner rounded&#34; style=&#34;height: 250px;&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;carousel-item active&#34; style=&#34;height: 250px;&#34; data-bs-toggle=&#34;modal&#34; data-bs-target=&#34;#imageModal&#34; data-img=&#34;/tm-hugo/img/products/pressure-sensor.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/tm-hugo/img/products/pressure-sensor.png&#34; class=&#34;d-block w-100 h-100 rounded&#34; style=&#34;object-fit: contain;&#34; alt=&#34;Датчик давления и температуры&#34;&gt;&#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;p class=&#34;text-muted small text-center mt-2 mb-0&#34;&gt;&lt;i class=&#34;fas fa-search-plus me-1&#34;&gt;&lt;/i&gt;Нажмите на изображение для увеличения&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Дисплей универсальный транспортный управляющий</title>
       <link>http://localhost:1313/tm-hugo/products/utud/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>

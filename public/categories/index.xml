@@ -9,24 +9,17 @@
     <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tm-hugo/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Controllers</title>
-      <link>http://localhost:1313/tm-hugo/categories/controllers/</link>
-      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/categories/controllers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Displays</title>
-      <link>http://localhost:1313/tm-hugo/categories/displays/</link>
-      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/categories/displays/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Actuators</title>
       <link>http://localhost:1313/tm-hugo/categories/actuators/</link>
-      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tm-hugo/categories/actuators/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Controllers</title>
+      <link>http://localhost:1313/tm-hugo/categories/controllers/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/categories/controllers/</guid>
       <description></description>
     </item>
     <item>
@@ -37,10 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>Switching</title>
-      <link>http://localhost:1313/tm-hugo/categories/switching/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/categories/switching/</guid>
+      <title>Displays</title>
+      <link>http://localhost:1313/tm-hugo/categories/displays/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/categories/displays/</guid>
       <description></description>
     </item>
     <item>
