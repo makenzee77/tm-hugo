@@ -7,13 +7,7 @@ weight: 60
 
 # Технические характеристики
 partNumber: 
-accuracy: "±2.5 см (RTK), ±10 см (PPP)"
-gnss: "GPS/ГЛОНАСС/Galileo/BeiDou L1/L2"
-speed: "0.5-25 км/ч"
-power: "12-24В"
-interfaces: "CAN, ISOBUS, Ethernet"
-temperature: "-40...+70°C"
-protection: "IP67"
+
 
 # Категории и теги
 categories: ["kits"]
@@ -25,41 +19,49 @@ images:
   - "/k6.jpg"
 
 # SEO
-description: "Система автоматического вождения Autosteer для тракторов с точностью RTK ±2.5 см. Повышение эффективности работ, экономия ресурсов и снижение нагрузки на оператора."
+description: "Комплексное решение для полного контроля работы техники в реальном времени. Система мониторит все параметры трактора: скорость, расход топлива, состояние двигателя, коробки передач и гидравлики."
 ---
 
 ## Описание
 
-**Система автоматического вождения** — 
+**Система точного вождения** - предназначена для управления объектом сельскохозяйственной техники (ОСХТ) на основе навигационной информации от разных типов датчиков в зависимости от режима и настроек оператора. Она автоматически ведёт ОСХТ по заданной траектории внутри границ поля с учетом текущего положения и параметров движения, отображает на графическом терминале границы поля и навигационные данные, компенсирует неровности при автоматическом управлении. 
 
-## Фотографии продукта
+Система обеспечивает мониторинг ОСХТ: контролирует положение, параметры движения, выполнение сельхозопераций, отображает убранные участки и ведет базу навигационных данных. СТВ устанавливается на различные модели тракторов, опрыскивателей и комбайнов с учётом их конструктивных особенностей.
+
+## Фотографии
 
 <div class="bg-light p-3 rounded mb-4">
-  <div id="autosteerCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="5000">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#autosteerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
-      <button type="button" data-bs-target="#autosteerCarousel" data-bs-slide-to="1" aria-label="Слайд 2"></button>
-      <button type="button" data-bs-target="#autosteerCarousel" data-bs-slide-to="2" aria-label="Слайд 3"></button>
-    </div>
-    <div class="carousel-inner rounded">
-      <div class="carousel-item active">
-        <img src="  " class="d-block w-100 rounded" alt="Autosteer - система в кабине">
+  <div id="utudCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="5000" style="cursor: pointer;">
+    <div class="carousel-inner rounded" style="height: 250px;">
+      <div class="carousel-item active" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/ ">
+        <img src="/tm-hugo/img/products/  " class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="авторуление">
       </div>
-      <div class="carousel-item">
-        <img src="  " class="d-block w-100 rounded" alt="Autosteer - работа в поле">
-      </div>
-      <div class="carousel-item">
-        <img src="  " class="d-block w-100 rounded" alt="Autosteer - компоненты системы">
+      <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/  ">
+        <img src="/tm-hugo/img/products/  " class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="авторуление">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#autosteerCarousel" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#utudCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Предыдущий</span>
+      <span class="visually-hidden">Назад</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#autosteerCarousel" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#utudCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Следующий</span>
+      <span class="visually-hidden">Вперёд</span>
     </button>
+  </div>
+  <p class="text-muted small text-center mt-2 mb-0"><i class="fas fa-search-plus me-1"></i>Нажмите на изображение для увеличения</p>
+</div>
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body text-center p-0">
+        <img id="modalImage" src="" class="img-fluid" alt="Увеличенное изображение">
+      </div>
+    </div>
   </div>
 </div>
 
