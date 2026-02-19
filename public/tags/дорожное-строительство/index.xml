@@ -6,7 +6,14 @@
     <description>Recent content in Дорожное Строительство on АО «Точные машины»</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tm-hugo/tags/%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%BE%D0%B5-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Система автоматического нивелирования для грейдера</title>
+      <link>http://localhost:1313/tm-hugo/products/leveling-grader/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/products/leveling-grader/</guid>
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Система автоматического нивелирования&lt;/strong&gt; предназначена для повышения точности нивелировочных&#xA;работ выполняемых грейдером. Система самостоятельно позиционирует отвал в соответствии с&#xA;выставленным уровнем или загруженной целевой поверхностью, снижая тем самым требования к&#xA;квалификации оператора и повышая точность и производительность.&lt;/p&gt;&#xA;&lt;p&gt;Точная инерциальная система на основе трехосевого измерительного модуля и интегрированной&#xA;ГНСС-технологии обеспечивает надежное 3D-позиционирование, стабилизируя углы наклона и&#xA;корректируя положение рабочего органа в режиме реального времени. В результате достигается&#xA;высокая точность по высоте, продольному и поперечному наклону.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

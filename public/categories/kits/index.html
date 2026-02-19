@@ -66,7 +66,7 @@
         <h1 class="section-title">
             Kits
         </h1>
-        <p class="section-subtitle">0 продукта в этой категории</p>
+        <p class="section-subtitle">3 продукта в этой категории</p>
     </div>
 
     
@@ -82,6 +82,139 @@
 
     
     <div class="row g-4">
+        
+        <div class="col-lg-4 col-md-6">
+            <div class="card product-card h-100">
+                <div class="product-image-container">
+                    
+                    
+                    <img src="/tm-hugo/img/products/%d0%b3%d1%80%d0%b5%d0%b9%d0%b4%d0%b5%d1%80.jpg" alt="Система автоматического нивелирования для грейдера" class="product-image">
+                    
+                </div>
+                <div class="card-body">
+                    <h5 class="product-title mb-2">Предназначена для повышения точности нивелировочных работ выполняемых грейдером.</h5>
+                    <h6 class="product-subtitle mb-3 text-muted">Система автоматического нивелирования для грейдера</h6>
+                    
+                    
+
+                    
+                    <div class="applications-list mb-3">
+                        
+                        <span class="application-badge">Дорожное строительство</span>
+                        
+                        <span class="application-badge">Грейдирование</span>
+                        
+                        <span class="application-badge">Планировка</span>
+                        
+                        <span class="application-badge">Профилирование</span>
+                        
+                    </div>
+                    
+
+                    
+                    
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a href="/tm-hugo/products/leveling-grader/" class="btn btn-primary w-100">
+                        <i class="fas fa-info-circle me-2"></i>Подробнее
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+            <div class="card product-card h-100">
+                <div class="product-image-container">
+                    
+                    
+                    <img src="/tm-hugo/img/products/k6.jpg" alt="Система авторуления для трактора" class="product-image">
+                    
+                </div>
+                <div class="card-body">
+                    <h5 class="product-title mb-2">Система автоматического вождения для сельхозтехники</h5>
+                    <h6 class="product-subtitle mb-3 text-muted">Система авторуления для трактора</h6>
+                    
+                    
+
+                    
+                    <div class="applications-list mb-3">
+                        
+                        <span class="application-badge">Точное земледелие</span>
+                        
+                        <span class="application-badge">Сельхозтехника</span>
+                        
+                        <span class="application-badge">Тракторы</span>
+                        
+                        <span class="application-badge">Посевные работы</span>
+                        
+                    </div>
+                    
+
+                    
+                    
+                    <div class="mb-3">
+                        <small class="text-muted">
+                            
+                            Питание: 12-24В<br>
+                            Защита: IP67
+                        </small>
+                    </div>
+                    
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a href="/tm-hugo/products/autosteer-tractor/" class="btn btn-primary w-100">
+                        <i class="fas fa-info-circle me-2"></i>Подробнее
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+            <div class="card product-card h-100">
+                <div class="product-image-container">
+                    
+                    
+                    <img src="/tm-hugo/img/products/sprayer.jpg" alt="Система автоматизации опрыскивателя" class="product-image">
+                    
+                </div>
+                <div class="card-body">
+                    <h5 class="product-title mb-2">Автоматический контроль секций и нормы внесения</h5>
+                    <h6 class="product-subtitle mb-3 text-muted">Система автоматизации опрыскивателя</h6>
+                    
+                    
+
+                    
+                    <div class="applications-list mb-3">
+                        
+                        <span class="application-badge">Защита растений</span>
+                        
+                        <span class="application-badge">Внесение удобрений</span>
+                        
+                        <span class="application-badge">Точное земледелие</span>
+                        
+                        <span class="application-badge">Сельхозтехника</span>
+                        
+                    </div>
+                    
+
+                    
+                    
+                    <div class="mb-3">
+                        <small class="text-muted">
+                            
+                            Питание: 12-24В<br>
+                            Защита: IP65
+                        </small>
+                    </div>
+                    
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a href="/tm-hugo/products/sprayer-automation/" class="btn btn-primary w-100">
+                        <i class="fas fa-info-circle me-2"></i>Подробнее
+                    </a>
+                </div>
+            </div>
+        </div>
         
     </div>
 
@@ -192,29 +325,5 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-    const el = document.getElementById('utudCarousel');
-    if (!el || typeof bootstrap === 'undefined') return;
-
-    const KEY = 'utudCarouselIndex';
-
-    const carousel = bootstrap.Carousel.getOrCreateInstance(el, {
-        interval: 5000,
-        ride: true
-    });
-
-    const saved = Number(localStorage.getItem(KEY));
-    if (Number.isInteger(saved) && saved >= 0) {
-        carousel.to(saved);
-    }
-
-    el.addEventListener('slid.bs.carousel', (e) => {
-        localStorage.setItem(KEY, e.to);
-    });
-    });
-    </script>
-
 </body>
 </html>

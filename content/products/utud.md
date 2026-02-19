@@ -19,7 +19,7 @@ dimensions: "265x173x52 мм"
 prodweight: "1.5 кг"
 
 # Категории и теги
-categories: ["processing"]
+categories: ["displays"]
 tags: ["УТУД", "GPS", "ГЛОНАСС", "CAN"]
 applications: ["Транспорт", "Сельхозтехника", "Спецтехника", "Телематика"]
 
@@ -93,10 +93,6 @@ description: "Дисплей универсальный транспортный
     document.getElementById('modalImage').src = imgSrc;
   });
 </script>
-
-
-
-
 
 ## Варианты исполнения
 Выберите конфигурацию для просмотра технических характеристик:

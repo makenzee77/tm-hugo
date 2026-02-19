@@ -6,7 +6,14 @@
     <description>Recent content in Защита Растений on АО «Точные машины»</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tm-hugo/applications/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Система автоматизации опрыскивателя</title>
+      <link>http://localhost:1313/tm-hugo/products/sprayer-automation/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tm-hugo/products/sprayer-automation/</guid>
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Система автоматизации опрыскивателя&lt;/strong&gt; — интеллектуальное решение для точного внесения средств защиты растений и жидких удобрений, обеспечивающее автоматическое управление секциями штанги и контроль нормы внесения. Система использует спутниковое позиционирование для отслеживания положения техники на поле и автоматически отключает секции или отдельные форсунки при заходе на уже обработанные участки.&lt;/p&gt;&#xA;&lt;p&gt;Технология Section Control решает главную проблему традиционного опрыскивания — перекрытия обработанных зон и неравномерное распределение препаратов. Система автоматически поддерживает заданную норму внесения при изменении скорости движения, обеспечивает равномерное покрытие независимо от конфигурации поля и документирует все операции для отчетности. Интеграция с протоколом ISOBUS позволяет работать с любым современным опрыскивающим оборудованием.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

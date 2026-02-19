@@ -8,6 +8,7 @@
             {{ else if eq .Title "displays" }}Дисплеи
             {{ else if eq .Title "switching" }}Коммутация
             {{ else if eq .Title "actuators" }}Исполнительные устройства
+            {{ else if eq .Title "kits" }}Готовые наборы
             {{ else }}{{ .Title | title }}{{ end }}
         </h1>
         <p class="section-subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}продукт{{ else if lt (len .Pages) 5 }}продукта{{ else }}продуктов{{ end }} в этой категории</p>

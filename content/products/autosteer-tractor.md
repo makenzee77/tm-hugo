@@ -5,10 +5,6 @@ date: 2024-01-01
 draft: false
 weight: 60
 
-build:
-  list: never
-  render: always
-
 # Технические характеристики
 partNumber: 
 accuracy: "±2.5 см (RTK), ±10 см (PPP)"
