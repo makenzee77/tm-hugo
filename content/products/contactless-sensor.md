@@ -1,24 +1,21 @@
 ---
-title: "Датчик угла поворота"
-fullName: "Датчик угла поворота"
+title: "Бесконтактный датчик угла наклона"
+fullName: "Бесконтактный датчик угла наклона"
 date: 2024-01-11
 draft: false
 weight: 
 
 # Технические характеристики
-frequency: "0-25 кГц"
-voltage: "10-30В"
-temperature: "0...25°C"
-protection: "IP68"
+
 
 # Категории и теги
 categories: ["sensors"]
-tags: ["скорость", "вращение", "частота"]
-applications: ["Измерение скорости", "Контроль оборотов"]
+tags: []
+applications: []
 
 # Изображения
 images:
-  - "rotation2.png"
+  - "contactless-sensor.png"
 
 # SEO
 description: ""
@@ -26,21 +23,21 @@ description: ""
 
 ## Описание
 
-**Датчик скорости вращения** — надежное решение для измерения скорости вращения валов, колес и других вращающихся элементов.
+**Бесконтактный датчик угла наклона** — 
 
 ## Фотографии
 
 <div class="bg-light p-3 rounded mb-4">
   <div id="utudCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="5000" style="cursor: pointer;">
     <div class="carousel-inner rounded" style="height: 250px;">
-      <div class="carousel-item active" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/rotation2.png">
-        <img src="/tm-hugo/img/products/rotation2.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Датчик угла">
+      <div class="carousel-item active" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/contactless-sensor.png">
+        <img src="/tm-hugo/img/products/contactless-sensor.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Датчик угла">
       </div>
-      <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/rotation3.png">
-        <img src="/tm-hugo/img/products/rotation3.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Датчик угла">
+      <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/">
+        <img src="/tm-hugo/img/products/" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Датчик угла">
       </div>
-      <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/rotation4.png">
-        <img src="/tm-hugo/img/products/rotation4.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Датчик угла">
+      <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/">
+        <img src="/tm-hugo/img/products/" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Датчик угла">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#utudCarousel" data-bs-slide="prev">
@@ -101,4 +98,3 @@ description: ""
 - [Тех. паспорт (PDF)](/docs/BKU-datasheet.pdf)
 - [Руководство (PDF)](/docs/BKU-manual.pdf)
 -->
-
