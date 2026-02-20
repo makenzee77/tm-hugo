@@ -1,11 +1,9 @@
 {{ define "main" }}
 <div class="container py-5">
     <!-- Кнопка возврата -->
-    <div class="mb-4">
-        <a href="{{ "products/" | relURL }}" class="btn btn-outline-danger">
-            <i class="fas fa-arrow-left me-2"></i>Назад к каталогу
-        </a>
-    </div>
+    <button type="button" class="btn btn-outline-secondary mb-3" onclick="window.history.back()">
+        <i class="fas fa-arrow-left me-2"></i>Назад к каталогу
+    </button>
 
     <!-- Заголовок продукта -->
     <div class="mb-5">

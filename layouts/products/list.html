@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const noProductsMsg = document.getElementById('no-products');
     const productCount = document.getElementById('product-count');
     const productsGrid = document.getElementById('products-grid');
+    
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             const category = this.dataset.category;
@@ -176,6 +177,28 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+    
+    // Сохраняем категорию при клике на карточку продукта
+    document.querySelectorAll('.product-item a').forEach(link => {
+        link.addEventListener('click', function() {
+            const activeBtn = document.querySelector('.filter-btn.active');
+            if (activeBtn) {
+                sessionStorage.setItem('lastActiveCategory', activeBtn.dataset.category);
+            }
+        });
+    });
+    
+    // Восстанавливаем категорию при возврате
+    const savedCategory = sessionStorage.getItem('lastActiveCategory');
+    if (savedCategory) {
+        const savedBtn = document.querySelector(`[data-category="${savedCategory}"]`);
+        if (savedBtn) {
+            savedBtn.click();
+        }
+        // ВАЖНО: Очищаем сразу после восстановления
+        sessionStorage.removeItem('lastActiveCategory');
+    }
 });
 </script>
+
 {{ end }}

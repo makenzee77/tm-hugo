@@ -33,9 +33,6 @@ description: "Подрулька - пульт управления сельхо�
 
 Пульт управления сельскохозяйственной позволяет контролировать исправность подключенных к нему
 элементов с коррекцией алгоритма функционирования в зависимости от их состояния.
-
-Пульт управления сельскохозяйственной имеет габариты позволяющие устанавливать его в уже существующие
-конструкторские решения. 
  
 ## Фотографии
 
@@ -45,7 +42,18 @@ description: "Подрулька - пульт управления сельхо�
       <div class="carousel-item active" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/control_panel_2.jpg">
         <img src="/tm-hugo/img/products/control_panel_2.jpg" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Пульт управления">
       </div>
+    <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/controlpanel-plan.png">
+        <img src="/tm-hugo/img/products/controlpanel-plan.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Пульт управления">
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#utudCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Назад</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#utudCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Вперёд</span>
+    </button>
   </div>
   <p class="text-muted small text-center mt-2 mb-0"><i class="fas fa-search-plus me-1"></i>Нажмите на изображение для увеличения</p>
 </div>
@@ -56,8 +64,8 @@ description: "Подрулька - пульт управления сельхо�
       <div class="modal-header border-0">
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
       </div>
-      <div class="modal-body text-center p-0">
-        <img id="modalImage" src="" class="img-fluid" alt="Увеличенное изображение">
+      <div class="modal-body text-center p-4" style="display: flex; align-items: center; justify-content: center; min-height: 400px;">
+        <img id="modalImage" src="" class="img-fluid" style="max-height: 75vh; max-width: 100%; object-fit: contain;" alt="Увеличенное изображение">
       </div>
     </div>
   </div>
@@ -119,15 +127,19 @@ description: "Подрулька - пульт управления сельхо�
     </div>
   </div>
 </div>
-
+<!--
 ## Видеопрезентация
-
 <div class="ratio ratio-16x9 mb-4">
   <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="УТУД - Видеопрезентация" allowfullscreen></iframe>
 </div>
-
+-->
 ---
+**Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами:**
 
+📞 **Телефон**: +7 (932) 617-76-22  
+📧 **Email**: [info@precisionmachines.pro](mailto:info@precisionmachines.pro)
+<!--
 ## Документация
 - [Тех. паспорт (PDF)](/docs/BKU-datasheet.pdf)
 - [Руководство (PDF)](/docs/BKU-manual.pdf)
+-->

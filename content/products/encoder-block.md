@@ -50,6 +50,9 @@ description: "Блок энкодера с CAN интерфейсом для с�
       <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/Энкодер.png">
         <img src="/tm-hugo/img/products/Энкодер.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Энкодер">
       </div>
+      <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/encoder-plan.png">
+        <img src="/tm-hugo/img/products/encoder-plan.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Энкодер">
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#utudCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -69,8 +72,8 @@ description: "Блок энкодера с CAN интерфейсом для с�
       <div class="modal-header border-0">
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
       </div>
-      <div class="modal-body text-center p-0">
-        <img id="modalImage" src="" class="img-fluid" alt="Увеличенное изображение">
+      <div class="modal-body text-center p-4" style="display: flex; align-items: center; justify-content: center; min-height: 400px;">
+        <img id="modalImage" src="" class="img-fluid" style="max-height: 75vh; max-width: 100%; object-fit: contain;" alt="Увеличенное изображение">
       </div>
     </div>
   </div>
@@ -121,14 +124,19 @@ description: "Блок энкодера с CAN интерфейсом для с�
   </div>
 </div>
 
+<!--
 ## Видеопрезентация
-
 <div class="ratio ratio-16x9 mb-4">
   <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="УТУД - Видеопрезентация" allowfullscreen></iframe>
 </div>
-
+-->
 ---
+**Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами:**
 
+📞 **Телефон**: +7 (932) 617-76-22  
+📧 **Email**: [info@precisionmachines.pro](mailto:info@precisionmachines.pro)
+<!--
 ## Документация
 - [Тех. паспорт (PDF)](/docs/BKU-datasheet.pdf)
 - [Руководство (PDF)](/docs/BKU-manual.pdf)
+-->

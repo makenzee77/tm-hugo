@@ -22,7 +22,7 @@ applications: ["Дорожное строительство", "Грейдиро�
 
 # Изображения
 images:
-  - "грейдер.jpg"
+  - "grader-photo.jpg"
 
 # SEO
 description: "Система автоматизированного 3D нивелирования для автогрейдеров с точностью ±5 мм. Полная автоматизация управления отвалом по CAN J1939."
@@ -92,17 +92,13 @@ description: "Система автоматизированного 3D ниве�
           <i class="fas fa-desktop me-2"></i>Дисплей УТУД
         </h5>
         <ul class="list-unstyled small">
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Диагональ: 10.1 дюйма, сенсорный</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Разрешение: 1920×1080 или 1280×720</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Питание: 9-36 В, не более 15 Вт</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Процессор: iMX8M Plus, 1.6 GHz</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>ОЗУ: 4 GB LPDDR4</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Интерфейсы: USB 3.0, USB 2.0 (2x), 3×CAN 2.0b, Ethernet</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Беспроводные: Wi-Fi, Bluetooth 5.2, 4G</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>GNSS: 2×L1/L2 (GPS, ГЛОНАСС, BeiDou, Galileo)</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Защита: IP65</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Температура: -40°C...+65°C</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Габариты: 265×173×52 мм</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Напряжение питания: 9-36В</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Потребляемая мощность: 15 Вт</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Диагональ дисплея: 10,1 дюйма</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Типы интерфейсов: USB 3.0, USB 2.0, Ethernet, 3xCAN 2.0b</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Беспроводные интерфейсы: Wi-Fi (802.11 b/g/n), Bluetooth 5.2, 4G</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Геопозиционирование: GNSS-приемник, 2xL2 GPS, BeiDou, Galileo, ГЛОНАСС</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Размеры: 265 x 173 x 52 мм</li>
         </ul>
       </div>
     </div>
@@ -115,54 +111,64 @@ description: "Система автоматизированного 3D ниве�
           <i class="fas fa-microchip me-2"></i>Блок контроля БКУ
         </h5>
         <ul class="list-unstyled small">
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Питание: 8-32 В, 20 Вт</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>CAN интерфейс: 4 канала</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>RS-485: 1 канал</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Аналоговые входы: 4 канала (4-20 мА)</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Защита: IP67</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Температура: -40°C...+60°C</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Габариты: 116×60×28 мм</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Напряжение питания: 8-32В</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Потребляемая мощность: 20 Вт</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Цифровые интерфейсы CAN: 4 шт.</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Универсальные входы: 20 шт.</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Дискретные входы: 40 шт.</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Релейные выходы: 19 шт.</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Выходы ШИМ: 24 шт.</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Выходы с полярностью: 2 шт.</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>RS-485: 1 шт.</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Размеры: 222 x 222 x 61 мм</li>
         </ul>
-        <h6 class="fw-bold mt-4 mb-3">Датчики угла наклона</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body p-4">
+        <h5 class="card-title fw-bold text-danger mb-3">
+          <i class="fas fa-compass me-2"></i>Инерциальный модуль
+        </h5>
         <ul class="list-unstyled small">
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Точность: ±0,05°</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Диапазон: ±60°</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Питание: 24 В</li>
-          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Выходной сигнал: 1 импульс на оборот</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Интерфейс: CAN</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Напряжение питания: 24В</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Защита: IP67</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Диапазон температур: -60°C...+60°C</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Стабильность: 1°/час</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Погрешность: ±0.15°</li>
+          <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Размеры: 116 x 60 x 28 мм</li>
         </ul>
       </div>
     </div>
   </div>
 </div>
 
-
-
-
 ## Преимущества системы
 
-<div class="row g-4 mb-4">
-  <div class="col-md-4">
+<div class="row g-4 mb-4 justify-content-center">
+  <div class="col-md-5">
     <div class="text-center">
       <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
         <i class="fas fa-bullseye fa-2x text-danger"></i>
       </div>
-      <h5 class="fw-bold">Точность профилирования ±1 см</h5>
-      <p class="text-muted small">Система автоматического нивелирования обеспечивает профилирование с точностью до 1 см, используя двухантенную ГНСС-систему и инерциальные датчики для стабилизации отвала с отклонением не более +1 см.
-RTK потравка может приниматься как либо через встроенный модем, либо через интернет.
-Целевые поверхности могут загружаться либо через USB, либо через WiFi либо через интернет.</p>
+      <h5 class="fw-bold">Точность</h5>
+      <p class="text-muted small">Система автоматического нивелирования обеспечивает профилирование с точностью до 1 см, используя двухантенную ГНСС-систему и инерциальные датчики для стабилизации отвала с отклонением не более ±1 см.</p>
     </div>
   </div>
   
-  <div class="col-md-4">
+  <div class="col-md-5">
     <div class="text-center">
       <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
         <i class="fas fa-tachometer-alt fa-2x text-danger"></i>
       </div>
       <h5 class="fw-bold">Мониторинг и контроль</h5>
-      <p class="text-muted small">Встроенный мониторинг передает в на центральный сервер информацию о моточасах, расходе топлива, выполненных работах, ошибках и времени простоя</p>
+      <p class="text-muted small">Встроенный мониторинг передает на центральный сервер информацию о моточасах, расходе топлива, выполненных работах, ошибках и времени простоя техники.</p>
     </div>
   </div>
-  
+  <!--
   <div class="col-md-4">
     <div class="text-center">
       <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
@@ -172,16 +178,37 @@ RTK потравка может приниматься как либо чере�
       <p class="text-muted small">Система распределения заданий позволяет работать над большим проектом нескольким машинам обеспечивая бесшовную стыковку результатов работ с постоянным мониторингом сделанного</p>
     </div>
   </div>
+  -->
 </div>
 
-## Поддерживаемые модели грейдеров
 
-Система совместима с автогрейдерами:
+<!--Поддерживаемые модели грейдеров-->
+<div class="card border-danger border-2 shadow-sm mb-5">
+  <div class="card-body p-4">
+    <div class="row align-items-center">
+      <div class="col-md-10">
+        <h5 class="fw-bold text-danger mb-2">Универсальная совместимость</h5>
+        <p class="mb-0 text-muted">Система совместима со всеми моделями автогрейдеров отечественного и зарубежного производства</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+## Видеопрезентация
+<div class="ratio ratio-16x9 mb-4">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="УТУД - Видеопрезентация" allowfullscreen></iframe>
+</div>
+-->
 
 ---
-
-**Для получения коммерческого предложения, технических консультаций или заказа системы свяжитесь с нами:**
+**Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами:**
 
 📞 **Телефон**: +7 (932) 617-76-22  
-📧 **Email**: [info@precisionmachines.pro](mailto:info@precisionmachines.pro)  
+📧 **Email**: [info@precisionmachines.pro](mailto:info@precisionmachines.pro)
+<!--
+## Документация
+- [Тех. паспорт (PDF)](/docs/BKU.pdf)
+- [Руководство (PDF)](/docs/BKU-manual.pdf)
+-->
 

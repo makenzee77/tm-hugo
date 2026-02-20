@@ -14,7 +14,7 @@
         </div>
         <!-- Единая кликабельная ссылка с текстом и стрелкой -->
         <div class="w-100 d-flex justify-content-center mt-5">
-          <a href="#flagship" class="d-flex flex-column align-items-center text-decoration-none text-white">
+          <a href="#flagship" class="d-flex flex-column align-items-center text-decoration-none text-white smooth-scroll">
             <p class="mb-2 text-uppercase fw-light small">Флагманские продукты</p>
             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path d="M6 9l6 6 6-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -26,8 +26,9 @@
   </div>
 </section>
 
+
 <!-- Флагманские продукты -->
-<section class="py-5 bg-light" id="flagship">
+<section class="py-5 bg-light" id="flagship" style="scroll-margin-top: 80px;">
   <div class="container">
     <div class="text-center">
       <h2 class="mb-3">Флагманские продукты</h2>
@@ -38,7 +39,7 @@
       
       <!-- Карточка УТУД -->
       <div class="col-12 col-md-6 col-lg-4">
-        <a href="{{ "products/utud-ptz/" | relURL }}" class="text-decoration-none text-reset">
+        <a href="{{ "products/utud/" | relURL }}" class="text-decoration-none text-reset">
           <div class="card h-100 shadow-sm">
             <div class="bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
               <img src="{{ "img/products/tractor3.png" | relURL }}"
@@ -62,9 +63,10 @@
         </a>
       </div>
 
+
       <!-- Карточка БКУ -->
       <div class="col-12 col-md-6 col-lg-4">
-        <a href="{{ "products/bku-ptz" | relURL }}" class="text-decoration-none text-reset">
+        <a href="{{ "products/bku" | relURL }}" class="text-decoration-none text-reset">
           <div class="card h-100 shadow-sm">
             <div class="bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
               <img src="{{ "img/products/БКУ фронт.png" | relURL }}"
@@ -87,6 +89,7 @@
           </div>
         </a>
       </div>
+
 
       <!-- Карточка Инерциальный модуль -->
       <div class="col-12 col-md-12 col-lg-4">
@@ -116,5 +119,26 @@
     </div>
   </div>
 </section>
+
+<script>
+// Плавная прокрутка с учетом высоты хедера
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+    if (targetElement) {
+      const headerOffset = 80; // высота хедера
+      const elementPosition = targetElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+</script>
 
 {{ end }}

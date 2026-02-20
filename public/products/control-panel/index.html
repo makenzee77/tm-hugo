@@ -63,11 +63,9 @@
         
 <div class="container py-5">
     
-    <div class="mb-4">
-        <a href="/tm-hugo/products/" class="btn btn-outline-danger">
-            <i class="fas fa-arrow-left me-2"></i>Назад к каталогу
-        </a>
-    </div>
+    <button type="button" class="btn btn-outline-secondary mb-3" onclick="window.history.back()">
+        <i class="fas fa-arrow-left me-2"></i>Назад к каталогу
+    </button>
 
     
     <div class="mb-5">
@@ -142,8 +140,6 @@
 функционированием узлов и агрегатов.</p>
 <p>Пульт управления сельскохозяйственной позволяет контролировать исправность подключенных к нему
 элементов с коррекцией алгоритма функционирования в зависимости от их состояния.</p>
-<p>Пульт управления сельскохозяйственной имеет габариты позволяющие устанавливать его в уже существующие
-конструкторские решения.</p>
 <h2 id="фотографии">Фотографии</h2>
 <div class="bg-light p-3 rounded mb-4">
   <div id="utudCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="5000" style="cursor: pointer;">
@@ -151,7 +147,18 @@
       <div class="carousel-item active" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/control_panel_2.jpg">
         <img src="/tm-hugo/img/products/control_panel_2.jpg" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Пульт управления">
       </div>
+    <div class="carousel-item" style="height: 250px;" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="/tm-hugo/img/products/controlpanel-plan.png">
+        <img src="/tm-hugo/img/products/controlpanel-plan.png" class="d-block w-100 h-100 rounded" style="object-fit: contain;" alt="Пульт управления">
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#utudCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Назад</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#utudCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Вперёд</span>
+    </button>
   </div>
   <p class="text-muted small text-center mt-2 mb-0"><i class="fas fa-search-plus me-1"></i>Нажмите на изображение для увеличения</p>
 </div>
@@ -161,8 +168,8 @@
       <div class="modal-header border-0">
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
       </div>
-      <div class="modal-body text-center p-0">
-        <img id="modalImage" src="" class="img-fluid" alt="Увеличенное изображение">
+      <div class="modal-body text-center p-4" style="display: flex; align-items: center; justify-content: center; min-height: 400px;">
+        <img id="modalImage" src="" class="img-fluid" style="max-height: 75vh; max-width: 100%; object-fit: contain;" alt="Увеличенное изображение">
       </div>
     </div>
   </div>
@@ -218,17 +225,21 @@
     </div>
   </div>
 </div>
-<h2 id="видеопрезентация">Видеопрезентация</h2>
+<!--
+## Видеопрезентация
 <div class="ratio ratio-16x9 mb-4">
   <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="УТУД - Видеопрезентация" allowfullscreen></iframe>
 </div>
-<hr>
-<h2 id="документация">Документация</h2>
-<ul>
-<li><a href="/docs/BKU-datasheet.pdf">Тех. паспорт (PDF)</a></li>
-<li><a href="/docs/BKU-manual.pdf">Руководство (PDF)</a></li>
-</ul>
-
+-->
+---
+**Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами:**
+<p>📞 <strong>Телефон</strong>: +7 (932) 617-76-22<br>
+📧 <strong>Email</strong>: <a href="mailto:info@precisionmachines.pro">info@precisionmachines.pro</a></p>
+<!--
+## Документация
+- [Тех. паспорт (PDF)](/docs/BKU-datasheet.pdf)
+- [Руководство (PDF)](/docs/BKU-manual.pdf)
+-->
             </div>
         </div>
 

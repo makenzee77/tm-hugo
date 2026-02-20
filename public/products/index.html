@@ -298,7 +298,7 @@
     
     
     <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">
-      <img src="/tm-hugo/img/products/%d0%b3%d1%80%d0%b5%d0%b9%d0%b4%d0%b5%d1%80.jpg" 
+      <img src="/tm-hugo/img/products/grader-photo.jpg" 
            class="img-fluid" 
            style="max-height: 200px; max-width: 100%; object-fit: contain;" 
            alt="Система автоматического нивелирования для грейдера">
@@ -699,6 +699,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const noProductsMsg = document.getElementById('no-products');
     const productCount = document.getElementById('product-count');
     const productsGrid = document.getElementById('products-grid');
+    
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             const category = this.dataset.category;
@@ -739,8 +740,30 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+    
+    
+    document.querySelectorAll('.product-item a').forEach(link => {
+        link.addEventListener('click', function() {
+            const activeBtn = document.querySelector('.filter-btn.active');
+            if (activeBtn) {
+                sessionStorage.setItem('lastActiveCategory', activeBtn.dataset.category);
+            }
+        });
+    });
+    
+    
+    const savedCategory = sessionStorage.getItem('lastActiveCategory');
+    if (savedCategory) {
+        const savedBtn = document.querySelector(`[data-category="${savedCategory}"]`);
+        if (savedBtn) {
+            savedBtn.click();
+        }
+        
+        sessionStorage.removeItem('lastActiveCategory');
+    }
 });
 </script>
+
 
     </main>
 
