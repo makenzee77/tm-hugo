@@ -288,12 +288,16 @@ description: "Дисплей универсальный транспортный
   </div>
 </div>
 
-<!--
+
 ## Видеопрезентация
 <div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="УТУД - Видеопрезентация" allowfullscreen></iframe>
+  <video class="w-100 h-100" controls>
+    <source src="/tm-hugo/videos/test.mp4" type="video/mp4">
+    Ваш браузер не поддерживает видео.
+  </video>
 </div>
--->
+
+
 ---
 **Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами:**
 
