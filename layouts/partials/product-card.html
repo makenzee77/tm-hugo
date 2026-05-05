@@ -1,7 +1,10 @@
+{{ $hasFile := (and .File .File.BaseFileName) }}
+{{ $isBku := and $hasFile (eq .File.BaseFileName "bku") }}
+
 {{ $isRus := or
     (in .Params.tags "УТУД")
     (in .Params.tags "IMU")
-    (eq .File.BaseFileName "bku")
+    (in .Params.tags "БКУ")
 }}
 
 <a href="{{ .RelPermalink }}" class="text-decoration-none text-reset">
