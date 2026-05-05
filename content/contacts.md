@@ -81,23 +81,24 @@ draft: false
         <h5 class="card-title fw-bold mb-4">
           <i class="fas fa-comment-dots text-danger me-2"></i>Связаться с нами
         </h5>
-        <form>
+        <form action="https://formspree.io/f/mzdkyqbj" method="POST">
+          <input type="hidden" name="_subject" value="Новое сообщение с сайта Точные машины">
           <div class="row g-3">
             <div class="col-md-6">
               <label for="name" class="form-label">Имя <span class="text-danger">*</span></label>
-              <input type="text" class="form-control" id="name" required>
+              <input type="text" class="form-control" id="name" name="name" required>
             </div>
             <div class="col-md-6">
               <label for="email" class="form-label">E-mail <span class="text-danger">*</span></label>
-              <input type="email" class="form-control" id="email" required>
+              <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="col-12">
               <label for="phone" class="form-label">Телефон</label>
-              <input type="tel" class="form-control" id="phone" placeholder="+7 (___) ___-__-__">
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
             </div>
             <div class="col-12">
               <label for="subject" class="form-label">Тема обращения</label>
-              <select class="form-select" id="subject">
+              <select class="form-select" id="subject" name="subject">
                 <option value="">Выберите тему</option>
                 <option value="sales">Коммерческие вопросы</option>
                 <option value="support">Техническая поддержка</option>
@@ -108,19 +109,19 @@ draft: false
             </div>
             <div class="col-12">
               <label for="message" class="form-label">Сообщение <span class="text-danger">*</span></label>
-              <textarea class="form-control" id="message" rows="4" required></textarea>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
             </div>
             <div class="col-12">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="agreement" required>
+                <input class="form-check-input" type="checkbox" id="agreement" name="agreement" value="yes" required>
                 <label class="form-check-label small" for="agreement">
-                  Я согласен(на) на <a href="/privacy-policy/" target="_blank">обработку персональных данных</a> и принимаю <a href="/terms/" target="_blank">условия использования</a> <span class="text-danger">*</span>
+                  Я согласен(на) на <a href="/privacy-policy/" target="_blank" rel="noopener noreferrer">обработку персональных данных</a> и принимаю <a href="/terms/" target="_blank" rel="noopener noreferrer">условия использования</a> <span class="text-danger">*</span>
                 </label>
               </div>
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-danger w-100">
-                </i>Отправить сообщение
+                <i class="fas fa-paper-plane me-2"></i>Отправить сообщение
               </button>
             </div>
           </div>

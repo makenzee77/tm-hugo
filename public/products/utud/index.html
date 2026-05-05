@@ -61,6 +61,8 @@
     
     <main>
         
+
+
 <div class="container py-5">
     
     <button type="button" class="btn btn-outline-secondary mb-3" onclick="window.history.back()">
@@ -83,7 +85,20 @@
                     
                 </div>
                 
-                <h1 class="display-5 fw-bold mb-3">Дисплей универсальный транспортный управляющий</h1>
+                <div class="d-flex align-items-center gap-2 flex-wrap mb-3">
+                    <h1 class="display-5 fw-bold mb-0">Дисплей универсальный транспортный управляющий</h1>
+
+                    
+                    <span
+                        class="badge bg-white text-danger border border-danger rounded-pill px-3 py-2 fw-bold"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="Продукция включена в Реестр отечественной продукции Минпромторга РФ"
+                    >
+                        РУС
+                    </span>
+                    
+                </div>
                 
                 <div class="mb-4">
                     <span class="text-muted me-3">
@@ -129,11 +144,8 @@
                         style="max-height: 300px; object-fit: contain;">
                 
             </div>
-
         </div>
     </div>
-
-
 
     <div class="row">
         <div class="col-lg-8">
@@ -374,13 +386,15 @@
     </div>
   </div>
 </div>
-<h2 id="видеопрезентация">Видеопрезентация</h2>
+<!--
+## Видеопрезентация
 <div class="ratio ratio-16x9 mb-4">
   <video class="w-100 h-100" controls>
     <source src="/tm-hugo/videos/test.mp4" type="video/mp4">
     Ваш браузер не поддерживает видео.
   </video>
 </div>
+-->
 <hr>
 <p><strong>Для получения подробной информации, технических консультаций или оформления заказа свяжитесь с нашими специалистами:</strong></p>
 <p>📞 <strong>Телефон</strong>: +7 (932) 617-76-22<br>
@@ -394,7 +408,6 @@
         </div>
 
         <div class="col-lg-4">
-            
             
             <div class="card border-0 shadow-sm mb-4 bg-light">
                 <div class="card-body p-4">
@@ -472,6 +485,14 @@
     </div>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+        new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+});
+</script>
 
 
     </main>

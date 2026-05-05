@@ -12,7 +12,6 @@
           <a class="btn btn-danger btn-lg" href="{{ "products/" | relURL }}">Каталог</a>
           <a class="btn btn-light btn-lg" href="{{ "solutions/" | relURL }}">Решения под ключ</a>
         </div>
-        <!-- Единая кликабельная ссылка с текстом и стрелкой -->
         <div class="w-100 d-flex justify-content-center mt-5">
           <a href="#flagship" class="d-flex flex-column align-items-center text-decoration-none text-white smooth-scroll">
             <p class="mb-2 text-uppercase fw-light small">Флагманские продукты</p>
@@ -26,7 +25,6 @@
   </div>
 </section>
 
-
 <!-- Флагманские продукты -->
 <section class="py-5 bg-light" id="flagship" style="scroll-margin-top: 80px;">
   <div class="container">
@@ -34,14 +32,25 @@
       <h2 class="mb-3">Флагманские продукты</h2>
       <p class="mb-4">Собственная разработка и производство в Екатеринбурге</p>
     </div>
-    <!-- Три карточки в одном ряду -->
+
     <div class="row g-4">
       
       <!-- Карточка УТУД -->
       <div class="col-12 col-md-6 col-lg-4">
         <a href="{{ "products/utud/" | relURL }}" class="text-decoration-none text-reset">
           <div class="card h-100 shadow-sm">
-            <div class="bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
+            <div class="position-relative bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
+              <div class="position-absolute top-0 end-0 m-2 z-3">
+                <span
+                  class="badge bg-white text-danger border border-danger rounded-pill px-3 py-2 fw-bold"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  title="Продукция включена в Реестр отечественной продукции Минпромторга РФ"
+                >
+                  РУС
+                </span>
+              </div>
+
               <img src="{{ "img/products/tractor3.png" | relURL }}"
                    class="w-100 h-100"
                    style="object-fit: contain;"
@@ -63,12 +72,22 @@
         </a>
       </div>
 
-
       <!-- Карточка БКУ -->
       <div class="col-12 col-md-6 col-lg-4">
         <a href="{{ "products/bku" | relURL }}" class="text-decoration-none text-reset">
           <div class="card h-100 shadow-sm">
-            <div class="bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
+            <div class="position-relative bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
+              <div class="position-absolute top-0 end-0 m-2 z-3">
+                <span
+                  class="badge bg-white text-danger border border-danger rounded-pill px-3 py-2 fw-bold"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  title="Продукция включена в Реестр отечественной продукции Минпромторга РФ"
+                >
+                  РУС
+                </span>
+              </div>
+
               <img src="{{ "img/products/БКУ фронт.png" | relURL }}"
                    class="w-100 h-100"
                    style="object-fit: contain;"
@@ -90,12 +109,22 @@
         </a>
       </div>
 
-
       <!-- Карточка Инерциальный модуль -->
       <div class="col-12 col-md-12 col-lg-4">
         <a href="{{ "products/inertial-sensor" | relURL }}" class="text-decoration-none text-reset">
           <div class="card h-100 shadow-sm">
-            <div class="bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
+            <div class="position-relative bg-light d-flex align-items-center justify-content-center p-3 overflow-hidden" style="height: 250px;">
+              <div class="position-absolute top-0 end-0 m-2 z-3">
+                <span
+                  class="badge bg-white text-danger border border-danger rounded-pill px-3 py-2 fw-bold"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  title="Продукция включена в Реестр отечественной продукции Минпромторга РФ"
+                >
+                  РУС
+                </span>
+              </div>
+
               <img src="{{ "img/products/Инерциальный.png" | relURL }}"
                    class="w-100 h-100"
                    style="object-fit: contain;"
@@ -121,14 +150,13 @@
 </section>
 
 <script>
-// Плавная прокрутка с учетом высоты хедера
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
     const targetId = this.getAttribute('href');
     const targetElement = document.querySelector(targetId);
     if (targetElement) {
-      const headerOffset = 80; // высота хедера
+      const headerOffset = 80;
       const elementPosition = targetElement.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
       
@@ -137,6 +165,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         behavior: 'smooth'
       });
     }
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+    new bootstrap.Tooltip(tooltipTriggerEl);
   });
 });
 </script>

@@ -1,5 +1,24 @@
+{{ $isRus := or
+    (in .Params.tags "УТУД")
+    (in .Params.tags "IMU")
+    (eq .File.BaseFileName "bku")
+}}
+
 <a href="{{ .RelPermalink }}" class="text-decoration-none text-reset">
-  <div class="card h-100 shadow-sm border-0">
+  <div class="card h-100 shadow-sm border-0 position-relative">
+    {{ if $isRus }}
+    <div class="position-absolute top-0 end-0 m-2 z-3">
+      <span
+        class="badge bg-white text-danger border border-danger rounded-pill px-3 py-2 fw-bold"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Продукция включена в Реестр отечественной продукции Минпромторга РФ"
+      >
+        РУС
+      </span>
+    </div>
+    {{ end }}
+
     {{ if .Params.images }}
     {{ $firstImage := index .Params.images 0 }}
     <div class="bg-light d-flex align-items-center justify-content-center p-3" style="height: 220px;">

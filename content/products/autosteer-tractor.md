@@ -5,6 +5,8 @@ date: 2024-01-01
 draft: false
 weight:
 
+build:
+  list: never      # не показывать в списках (каталогах)
 # Технические характеристики
 partNumber: 
 

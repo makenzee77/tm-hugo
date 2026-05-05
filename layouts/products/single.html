@@ -1,4 +1,10 @@
 {{ define "main" }}
+{{ $isRus := or
+    (in .Params.tags "УТУД")
+    (in .Params.tags "IMU")
+    (eq .File.BaseFileName "bku")
+}}
+
 <div class="container py-5">
     <!-- Кнопка возврата -->
     <button type="button" class="btn btn-outline-secondary mb-3" onclick="window.history.back()">
@@ -19,7 +25,20 @@
                     {{ end }}
                 </div>
                 
-                <h1 class="display-5 fw-bold mb-3">{{ .Params.Title | default .Title }}</h1>
+                <div class="d-flex align-items-center gap-2 flex-wrap mb-3">
+                    <h1 class="display-5 fw-bold mb-0">{{ .Params.Title | default .Title }}</h1>
+
+                    {{ if $isRus }}
+                    <span
+                        class="badge bg-white text-danger border border-danger rounded-pill px-3 py-2 fw-bold"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="Продукция включена в Реестр отечественной продукции Минпромторга РФ"
+                    >
+                        РУС
+                    </span>
+                    {{ end }}
+                </div>
                 
                 <div class="mb-4">
                     <span class="text-muted me-3">
@@ -64,11 +83,8 @@
                     </div>
                 {{ end }}
             </div>
-
         </div>
     </div>
-
-
 
     <div class="row">
         <div class="col-lg-8">
@@ -79,7 +95,6 @@
         </div>
 
         <div class="col-lg-4">
-            
             <!-- Быстрые факты -->
             <div class="card border-0 shadow-sm mb-4 bg-light">
                 <div class="card-body p-4">
@@ -150,5 +165,13 @@
     </div>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+        new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+});
+</script>
 
 {{ end }}
