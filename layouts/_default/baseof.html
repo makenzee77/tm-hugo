@@ -21,26 +21,44 @@
 <body>
     <!-- Навбар -->
     <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="{{ "/tm-hugo" | relURL }}">
-                <img src="{{ "img/logo.svg" | relURL }}" style="height: 2rem" alt="{{ .Site.Params.company.name }}">
-            </a>
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="{{ "/" | relURL }}">
+            <img src="{{ "img/logo.svg" | relURL }}" style="height: 2rem" alt="{{ .Site.Params.company.name }}">
+        </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    {{ range .Site.Menus.main }}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="mainNav">
+            <!-- Обычные пункты меню -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                {{ range .Site.Menus.main }}
+                    {{ if ne .Name "Запрос КП" }}
                     <li class="nav-item">
-                        <a class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a>
+                        <a class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}"
+                           href="{{ .URL | relURL }}">
+                            {{ .Name }}
+                        </a>
                     </li>
                     {{ end }}
-                </ul>
+                {{ end }}
+            </ul>
+
+            <!-- Кнопка всегда справа -->
+            <div class="d-flex ms-lg-3 mt-3 mt-lg-0">
+                {{ range .Site.Menus.main }}
+                    {{ if eq .Name "Запрос КП" }}
+                    <a class="btn btn-danger nav-cta-btn"
+                       href="{{ .URL | relURL }}">
+                        <i class="fas fa-file-invoice me-2"></i>{{ .Name }}
+                    </a>
+                    {{ end }}
+                {{ end }}
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Main Content -->
     <main>

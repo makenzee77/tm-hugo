@@ -8,7 +8,7 @@ draft: false
 weight: 
 
 # Технические характеристики
-partNumber: "РСДТ.408866.001"
+partNumber:
 pressureType: "избыточное"
 measurementRange: "2,5; 16; 60 МПа"
 overloadPressure: "4; 25; 70 МПа"

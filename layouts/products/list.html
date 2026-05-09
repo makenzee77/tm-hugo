@@ -47,7 +47,6 @@
                 </div>
                 {{ end }}
             </div>
-            
 
             <!-- Сообщение если продукты не найдены -->
             <div id="no-products" class="text-center py-5 d-none">
@@ -63,7 +62,7 @@
         </div>
     </div>
 
-<!-- Преимущества компании -->
+    <!-- Преимущества компании -->
     <div class="row mt-5 pt-5 border-top">
         <div class="col-12 text-center mb-4">
             <h3 class="fw-bold">Почему выбирают нас</h3>
@@ -114,7 +113,7 @@
                     <i class="fas fa-headset fa-2x mb-3 opacity-75"></i>
                     <h4 class="fw-bold mb-2">Техническая поддержка и консультации</h4>
                     <p class="mb-3 opacity-90">
-                        Для получения подробной информации о продуктах, технических консультаций 
+                        Для получения подробной информации о продуктах, технических консультаций
                         или оформления заказа обращайтесь к нашим специалистам.
                     </p>
                     <div class="d-flex gap-3 justify-content-center flex-wrap">
@@ -138,12 +137,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const noProductsMsg = document.getElementById('no-products');
     const productCount = document.getElementById('product-count');
     const productsGrid = document.getElementById('products-grid');
-    
+
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             const category = this.dataset.category;
-            
-            // Обновить активную кнопку
+
             filterBtns.forEach(b => {
                 if (b.dataset.category === category) {
                     b.classList.remove('btn-outline-danger');
@@ -153,8 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     b.classList.add('btn-outline-danger');
                 }
             });
-            
-            // Фильтровать продукты
+
             let visibleCount = 0;
             productItems.forEach(item => {
                 const itemCategory = item.dataset.category;
@@ -165,11 +162,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     item.classList.add('d-none');
                 }
             });
-            
-            // Обновить счетчик
+
             productCount.textContent = visibleCount;
-            
-            // Показать/скрыть сообщение "не найдено"
+
             if (visibleCount === 0) {
                 noProductsMsg.classList.remove('d-none');
                 productsGrid.classList.add('d-none');
@@ -179,8 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // Сохраняем категорию при клике на карточку продукта
+
     document.querySelectorAll('.product-item a').forEach(link => {
         link.addEventListener('click', function() {
             const activeBtn = document.querySelector('.filter-btn.active');
@@ -189,17 +183,76 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // Восстанавливаем категорию при возврате
+
     const savedCategory = sessionStorage.getItem('lastActiveCategory');
     if (savedCategory) {
         const savedBtn = document.querySelector(`[data-category="${savedCategory}"]`);
         if (savedBtn) {
             savedBtn.click();
         }
-        // ВАЖНО: Очищаем сразу после восстановления
         sessionStorage.removeItem('lastActiveCategory');
     }
+
+    const STORAGE_KEY = 'tm_quote_cart';
+
+    function getCart() {
+        try {
+            const raw = localStorage.getItem(STORAGE_KEY);
+            if (!raw) return [];
+            const parsed = JSON.parse(raw);
+            return Array.isArray(parsed) ? parsed : [];
+        } catch (e) {
+            return [];
+        }
+    }
+
+    function saveCart(cart) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(cart));
+    }
+
+    function addToQuote(item) {
+        const cart = getCart();
+        const existingIndex = cart.findIndex(product =>
+            (product.slug && item.slug && product.slug === item.slug) ||
+            (product.url && item.url && product.url === item.url)
+        );
+
+        if (existingIndex !== -1) {
+            cart[existingIndex].quantity = Number(cart[existingIndex].quantity || 1) + 1;
+        } else {
+            cart.push({
+                name: item.name,
+                url: item.url,
+                slug: item.slug,
+                partNumber: item.partNumber || '',
+                quantity: 1,
+                comment: ''
+            });
+        }
+
+        saveCart(cart);
+    }
+
+    document.querySelectorAll('.add-to-quote-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            addToQuote({
+                name: btn.dataset.name,
+                url: btn.dataset.url,
+                slug: btn.dataset.slug,
+                partNumber: btn.dataset.partNumber
+            });
+
+            btn.classList.remove('btn-danger');
+            btn.classList.add('btn-success');
+            btn.innerHTML = '<i class="fas fa-check me-2"></i>Добавлено';
+
+            setTimeout(() => {
+                btn.classList.remove('btn-success');
+                btn.classList.add('btn-danger');
+                btn.innerHTML = '<i class="fas fa-file-invoice me-2"></i>В запрос КП';
+            }, 1500);
+        });
+    });
 });
 </script>
 

@@ -6,14 +6,7 @@
     <description>Recent content in RTK on АО «Точные машины»</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/tm-hugo/tags/rtk/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Система авторуления для трактора</title>
-      <link>http://localhost:1313/tm-hugo/products/autosteer-tractor/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tm-hugo/products/autosteer-tractor/</guid>
-      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Система точного вождения&lt;/strong&gt; - предназначена для управления объектом сельскохозяйственной техники (ОСХТ) на основе навигационной информации от разных типов датчиков в зависимости от режима и настроек оператора. Она автоматически ведёт ОСХТ по заданной траектории внутри границ поля с учетом текущего положения и параметров движения, отображает на графическом терминале границы поля и навигационные данные, компенсирует неровности при автоматическом управлении.&lt;/p&gt;&#xA;&lt;p&gt;Система обеспечивает мониторинг ОСХТ: контролирует положение, параметры движения, выполнение сельхозопераций, отображает убранные участки и ведет базу навигационных данных. СТВ устанавливается на различные модели тракторов, опрыскивателей и комбайнов с учётом их конструктивных особенностей.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

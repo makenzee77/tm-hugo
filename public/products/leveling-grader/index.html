@@ -21,42 +21,92 @@
 <body>
     
     <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="/tm-hugo">
-                <img src="/tm-hugo/img/logo.svg" style="height: 2rem" alt="АО «Точные машины»">
-            </a>
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="/tm-hugo/img/logo.svg" style="height: 2rem" alt="АО «Точные машины»">
+        </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="mainNav">
             
-            <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/tm-hugo/">Главная</a>
+                        <a class="nav-link"
+                           href="/tm-hugo/">
+                            Главная
+                        </a>
                     </li>
+                    
+                
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/tm-hugo/products/">Каталог</a>
+                        <a class="nav-link"
+                           href="/tm-hugo/products/">
+                            Каталог
+                        </a>
                     </li>
+                    
+                
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/tm-hugo/solutions/">Решения</a>
+                        <a class="nav-link"
+                           href="/tm-hugo/solutions/">
+                            Решения
+                        </a>
                     </li>
+                    
+                
+                    
+                
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/tm-hugo/about/">О компании</a>
+                        <a class="nav-link"
+                           href="/tm-hugo/about/">
+                            О компании
+                        </a>
                     </li>
+                    
+                
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/tm-hugo/contacts/">Контакты</a>
+                        <a class="nav-link"
+                           href="/tm-hugo/contacts/">
+                            Контакты
+                        </a>
                     </li>
                     
-                </ul>
+                
+            </ul>
+
+            
+            <div class="d-flex ms-lg-3 mt-3 mt-lg-0">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    <a class="btn btn-danger nav-cta-btn"
+                       href="/tm-hugo/request-quote/">
+                        <i class="fas fa-file-invoice me-2"></i>Запрос КП
+                    </a>
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
     
     <main>
@@ -85,7 +135,11 @@
                     
                 </div>
                 
-                <h1 class="display-5 fw-bold mb-3">Система автоматического нивелирования для грейдера</h1>
+                <div class="d-flex align-items-center gap-2 flex-wrap mb-3">
+                    <h1 class="display-5 fw-bold mb-0">Система автоматического нивелирования для грейдера</h1>
+
+                    
+                </div>
                 
                 <div class="mb-4">
                     <span class="text-muted me-3">
@@ -123,17 +177,13 @@
             </div>
             
             <div class="col-lg-4">
-                <div class="position-relative">
+                
                     
-
-                    
-                        
-                        <img src="/tm-hugo/img/products/grader-photo.jpg"
-                            alt="Система автоматического нивелирования для грейдера"
-                            class="img-fluid rounded-3 w-100"
-                            style="max-height: 300px; object-fit: contain;">
-                    
-                </div>
+                    <img src="/tm-hugo/img/products/grader-photo.jpg"
+                        alt="Система автоматического нивелирования для грейдера"
+                        class="img-fluid rounded-3 w-100"
+                        style="max-height: 300px; object-fit: contain;">
+                
             </div>
         </div>
     </div>
@@ -311,6 +361,45 @@
 
         <div class="col-lg-4">
             
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-body p-4">
+                    <div class="d-flex flex-column gap-3">
+                        <div>
+                            <h6 class="fw-bold mb-2">
+                                <i class="fas fa-file-invoice me-2 text-danger"></i>Запрос коммерческого предложения
+                            </h6>
+                            <p class="text-muted small mb-0">
+                                Добавьте этот продукт в список и отправьте единый запрос КП по нескольким позициям.
+                            </p>
+                        </div>
+
+                        <div class="d-flex flex-column flex-sm-row gap-2">
+                            <button
+                                type="button"
+                                class="btn btn-danger flex-fill"
+                                id="add-to-quote-btn"
+                                data-product-name="Система автоматического нивелирования для грейдера"
+                                data-product-fullname="Предназначена для повышения точности нивелировочных работ выполняемых грейдером."
+                                data-product-slug="/tm-hugo/products/leveling-grader/"
+                                data-product-partnumber=""
+                            >
+                                <i class="fas fa-plus me-2"></i>Добавить в запрос
+                            </button>
+
+                            <a href="/tm-hugo/request-quote/" class="btn btn-outline-danger flex-fill">
+                                <i class="fas fa-arrow-right me-2"></i>Перейти к запросу
+                            </a>
+                        </div>
+
+                        <div id="quote-add-result" class="alert alert-success mt-1 mb-0 py-2 px-3 d-none small">
+                            <i class="fas fa-check-circle me-2"></i>
+                            Товар добавлен в запрос КП.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
             <div class="card border-0 shadow-sm mb-4 bg-light">
                 <div class="card-body p-4">
                     <h6 class="fw-bold mb-3">
@@ -382,9 +471,63 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+    
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.forEach(function (tooltipTriggerEl) {
         new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+
+    
+    const STORAGE_KEY = 'tm_quote_cart';
+    const addBtn = document.getElementById('add-to-quote-btn');
+    const resultBox = document.getElementById('quote-add-result');
+
+    if (!addBtn) return;
+
+    function getCart() {
+        try {
+            const raw = localStorage.getItem(STORAGE_KEY);
+            if (!raw) return [];
+            const parsed = JSON.parse(raw);
+            return Array.isArray(parsed) ? parsed : [];
+        } catch (e) {
+            return [];
+        }
+    }
+
+    function saveCart(cart) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(cart));
+    }
+
+    addBtn.addEventListener('click', function () {
+        const product = {
+            name: addBtn.dataset.productName || '',
+            fullName: addBtn.dataset.productFullname || '',
+            slug: addBtn.dataset.productSlug || '',
+            partNumber: addBtn.dataset.productPartnumber || '',
+            quantity: 1,
+            comment: ''
+        };
+
+        const cart = getCart();
+        const existingIndex = cart.findIndex(function (item) {
+            return item.slug === product.slug || (item.partNumber && product.partNumber && item.partNumber === product.partNumber);
+        });
+
+        if (existingIndex !== -1) {
+            cart[existingIndex].quantity = Number(cart[existingIndex].quantity || 1) + 1;
+        } else {
+            cart.push(product);
+        }
+
+        saveCart(cart);
+
+        if (resultBox) {
+            resultBox.classList.remove('d-none');
+            setTimeout(function () {
+                resultBox.classList.add('d-none');
+            }, 2500);
+        }
     });
 });
 </script>
@@ -409,6 +552,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         <li><a href="/tm-hugo/products/">Каталог</a></li>
                         
                         <li><a href="/tm-hugo/solutions/">Решения</a></li>
+                        
+                        <li><a href="/tm-hugo/request-quote/">Запрос КП</a></li>
                         
                         <li><a href="/tm-hugo/about/">О компании</a></li>
                         
